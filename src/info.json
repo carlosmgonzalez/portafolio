@@ -1,0 +1,52 @@
+{
+  "ingles": {
+    "inicial": {
+      "saludo": "Hi 🖐🏼",
+      "nombre": "I'm Carlos Mario Gonzalez",
+      "descripcion": "I think that programming is a tool to build solutions and I am passionate about that",
+      "primerDato": "Full-Stack Developer",
+      "segundoDato": "2 years of experience"
+    },
+    "nivelIngles": {
+      "titulo": "English level",
+      "nivel": "A2"
+    },
+    "proyectos": {
+      "titulo": "Main projects",
+      "descripcion": "Here you can find some of my most notable projects"
+    },
+    "formulario": {
+      "titulo": "Talk me",
+      "description": "Send me a message using the form below",
+      "button": "Send",
+      "errorNombre": "The name is required",
+      "errorEmail": "The email is required",
+      "placeholder": "Message"
+    }
+  },
+  "español": {
+    "inicial": {
+      "saludo": "Hola 🖐🏼",
+      "nombre": "Soy Carlos Mario Gonzalez",
+      "descripcion": "Pienso que la programación es una herramienta para construir soluciones y eso me apasiona",
+      "primerDato": "Desarrollador Full-Stack",
+      "segundoDato": "2 años de experiencia"
+    },
+    "nivelIngles": {
+      "titulo": "Nivel de ingles",
+      "nivel": "A2"
+    },
+    "proyectos": {
+      "titulo": "Proyectos pricipales",
+      "descripcion": "Aqui podras encontrar algunos de mis proyectos mas destacados"
+    },
+    "formulario": {
+      "titulo": "Hablemos",
+      "description": "Enviame un mensaje con el formulario a continuación",
+      "button": "Enviar",
+      "errorNombre": "El nombre es obligatorio",
+      "errorEmail": "El correo es obligatorio",
+      "placeholder": "Mensaje"
+    }
+  }
+}
