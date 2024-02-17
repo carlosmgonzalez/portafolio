@@ -13,7 +13,20 @@
     },
     "proyectos": {
       "titulo": "Main projects",
-      "descripcion": "Here you can find some of my most notable projects"
+      "descripcion": "Here you can find some of my most notable projects",
+      "inicio": "home",
+      "chatpdf": {
+        "titulo": "chat with pdf",
+        "descripcion": "This project is simple but at the same time surprising. In it you can take your pdf and just by sliding it into the box, you will get the text and thanks to OpenAI you can ask it anything that has to do with the pdf."
+      },
+      "spotifyClone": {
+        "titulo": "spotify clone",
+        "descripcion": "This project is different from the others because I developed it with Astro. I made an integration with React; As it is a very reactive and interactive application, I needed a global state, and for that I used Zustand, which I consider the best currently. I also created a database to get the information, and connected and managed it with Prisma.js."
+      },
+      "todoapp": {
+        "titulo":"todo app",
+        "descripcion": "This task app is pretty simple; the state handler is Redux. I saved the tasks to local storage, therefore, you can reload the page and the previously added tasks will still be there. You can create, edit and delete tasks, assign a title and description to each one."
+      }
     },
     "formulario": {
       "titulo": "Talk me",
@@ -38,7 +51,20 @@
     },
     "proyectos": {
       "titulo": "Proyectos pricipales",
-      "descripcion": "Aqui podras encontrar algunos de mis proyectos mas destacados"
+      "descripcion": "Aqui podras encontrar algunos de mis proyectos mas destacados",
+      "inicio": "inicio",
+      "chatpdf": {
+        "titulo": "habla con tu pdf",
+        "descripcion": "Este proyecto es sencillo pero a la vez sorprendente. En el puedes tomar tu pdf y con tan solo deslizarlo al recuadro, obtendra el texto y gracias a OpenAI podras preguntarle cualquier cosa que tenga que ver con el pdf."
+      },
+      "spotifyClone": {
+        "titulo": "clone de spotify",
+        "descripcion": "Este proyecto es diferente a los demás debido a que lo desarrollé con Astro. Realicé una integración con React; como es una aplicación muy reactiva e interactiva, necesité un estado global, y para eso utilicé Zustand, que considero el mejor actualmente. También creé una base de datos para obtener la información, y me conecté y la gestioné con Prisma.js."
+      },
+      "todoapp": {
+        "titulo":"aplicación de tareas",
+        "descripcion": "Esta aplicación de tareas es bastante sencilla; el manejador de estado es Redux. Guardé las tareas en el local storage, por lo tanto, puedes recargar la página y todavía estarán las tareas previamente agregadas. Puedes crear, editar y eliminar tareas, asignarles un título y una descripción a cada una."
+      }
     },
     "formulario": {
       "titulo": "Hablemos",

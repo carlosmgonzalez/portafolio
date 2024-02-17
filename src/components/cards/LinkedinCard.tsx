@@ -2,6 +2,7 @@ export const LinkedinCard = () => {
   return (
     <a
       className={`relative w-full h-full rounded-2xl p-4 shadow-md opacity-90 shadow-neutral-800  bg-cyan-800 
+      hover:scale-105 transition-all ease-in-out delay-100
       col-span-6 sm:col-span-5 md:col-span-4 lg:col-span-4
       flex justify-center items-center`}
       href="https://www.linkedin.com/in/carlosmgonzalez1998/"

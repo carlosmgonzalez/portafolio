@@ -8,6 +8,15 @@ export interface Language {
 export interface Proyectos {
   titulo: string;
   descripcion: string;
+  inicio: string;
+  chatpdf: ProyectoInfo;
+  spotifyClone: ProyectoInfo;
+  todoapp: ProyectoInfo;
+}
+
+export interface ProyectoInfo {
+  titulo: string;
+  descripcion: string;
 }
 
 export interface Formulario {

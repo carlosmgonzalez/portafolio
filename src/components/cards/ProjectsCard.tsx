@@ -7,10 +7,12 @@ export const ProjectsCard = ({ info }: { info: Language }) => {
   return (
     <Link
       href="/projects"
-      className={`relative w-full h-full rounded-2xl p-5 shadow-md shadow-neutral-800 opacity-90 
-      col-span-12 sm:col-span-7 md:col-span-8 lg:col-span-8
-      bg-[url('/gif/coding.gif')] bg-cover bg-center
-      flex flex-col justify-center`}
+      className={`relative w-full h-full rounded-2xl p-5 shadow-md shadow-neutral-800 opacity-90
+        hover:scale-105 transition-all ease-in-out delay-100 
+        col-span-12 sm:col-span-7 md:col-span-8 lg:col-span-8
+        bg-[url('/gif/coding.gif')] bg-cover bg-center
+        flex flex-col justify-center
+      `}
     >
       <div className="w-full h-full absolute top-0 left-0 rounded-2xl bg-fuchsia-800/50 p-5">
         <div>

@@ -3,8 +3,8 @@
 import { useLanguageStore } from "@/store/language.store";
 
 export const LanguageAndResume = () => {
-  const setLanguage = useLanguageStore((state) => state.setLanguage);
   const language = useLanguageStore((state) => state.language);
+  const setInfoLenguage = useLanguageStore((state) => state.setInfo);
 
   return (
     <div
@@ -14,17 +14,18 @@ export const LanguageAndResume = () => {
       col-span-3 sm:col-span-2 md:col-span-2 lg:col-span-4`}
     >
       <button
-        onClick={() => setLanguage()}
+        onClick={() => setInfoLenguage()}
         className={`w-full h-full rounded-2xl p-5 shadow-md shadow-neutral-800 
+        hover:scale-105 transition-all ease-in-out delay-100
         opacity-90 bg-violet-800 flex flex-col justify-center items-center`}
       >
         <h2 className="font-semibold text-3xl">
-          {language === "english" ? "EN" : "ES"}
+          {language === "english" ? "ES" : "EN"}
         </h2>
         <div className="flex">
           <span
             className={`text-lg ${
-              language === "english" ? "font-normal" : "font-light"
+              language === "english" ? "font-light" : "font-normal"
             }`}
           >
             EN
@@ -32,7 +33,7 @@ export const LanguageAndResume = () => {
           <span className="font-light text-lg">/</span>
           <span
             className={`text-lg ${
-              language === "spanish" ? "font-normal" : "font-light"
+              language === "spanish" ? "font-light" : "font-normal"
             }`}
           >
             ES
@@ -43,7 +44,9 @@ export const LanguageAndResume = () => {
         href="/resume.pdf"
         download={true}
         className={`w-full h-full rounded-2xl p-4 shadow-md shadow-neutral-800 opacity-90 bg-amber-800 
-        flex flex-col justify-center items-center`}
+          hover:scale-105 transition-all ease-in-out delay-100
+          flex flex-col justify-center items-center
+        `}
       >
         <h2 className="text-3xl text-cente font-semibold">CV</h2>
         <svg fill="currentColor" viewBox="0 0 16 16" height="2em" width="2em">

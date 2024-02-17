@@ -1,18 +1,20 @@
-import Image from "next/image";
+import { Language } from "@/interfaces/languages";
+import { NextBadge } from "../badges/Next.badge";
+import { NodeBadge } from "../badges/Node.badge";
+import { Card } from "./Card";
 
-export const ProjectChatWithPdf = () => {
+export const ChatWithPdf = ({ info }: { info: Language }) => {
+  const data = info.proyectos.chatpdf;
+
   return (
-    <div className="relative [&>div]:hover:block">
-      <Image
-        src="/images/chat-with-pdf-1.png"
-        alt="project twitter"
-        width="320"
-        height="320"
-        className="rounded-md aspect-video"
-      />
-      <div className="absolute top-0 left-0 z-10 hidden bg-neutral-700/70 w-full h-full rounded-md p-2 tra">
-        <h2 className="text-white font-medium text-lg">Chat With PDF</h2>
-      </div>
-    </div>
+    <Card
+      title={data.titulo}
+      image="/images/chat-with-pdf-2.png"
+      url="https://github.com/carlosmgonzalez/chat-with-pdf-next"
+      text={data.descripcion}
+    >
+      <NextBadge />
+      <NodeBadge />
+    </Card>
   );
 };

@@ -3,11 +3,12 @@ export const GithubCard = () => {
     <a
       href="https://github.com/carlosmgonzalez"
       target="_blank"
-      className={`relative w-full rounded-2xl p-4 shadow-md shadow-neutral-800 opacity-90 h-[240px] 
+      className={`relative w-full h-full rounded-2xl p-4 shadow-md shadow-neutral-800 opacity-90
+        hover:scale-105 transition-all ease-in-out delay-100
         col-span-9 sm:col-span-5 md:col-span-4 lg:col-span-4
         flex flex-col justify-center items-center 
         bg-[url('/gif/github.gif')] bg-cover bg-center
-        `}
+      `}
     >
       <svg
         className="absolute top-5 left-5"
