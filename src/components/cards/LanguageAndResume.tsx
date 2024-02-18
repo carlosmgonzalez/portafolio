@@ -4,7 +4,7 @@ import { useLanguageStore } from "@/store/language.store";
 
 export const LanguageAndResume = () => {
   const language = useLanguageStore((state) => state.language);
-  const setInfoLenguage = useLanguageStore((state) => state.setInfo);
+  const setLenguage = useLanguageStore((state) => state.setLanguage);
 
   return (
     <div
@@ -14,18 +14,18 @@ export const LanguageAndResume = () => {
       col-span-3 sm:col-span-2 md:col-span-2 lg:col-span-4`}
     >
       <button
-        onClick={() => setInfoLenguage()}
+        onClick={() => setLenguage()}
         className={`w-full h-full rounded-2xl p-5 shadow-md shadow-neutral-800 
         hover:scale-105 transition-all ease-in-out delay-100
         opacity-90 bg-violet-800 flex flex-col justify-center items-center`}
       >
         <h2 className="font-semibold text-3xl">
-          {language === "english" ? "ES" : "EN"}
+          {language === "english" ? "EN" : "ES"}
         </h2>
         <div className="flex">
           <span
             className={`text-lg ${
-              language === "english" ? "font-light" : "font-normal"
+              language === "english" ? "font-normal" : "font-light"
             }`}
           >
             EN
@@ -33,7 +33,7 @@ export const LanguageAndResume = () => {
           <span className="font-light text-lg">/</span>
           <span
             className={`text-lg ${
-              language === "spanish" ? "font-light" : "font-normal"
+              language === "spanish" ? "font-normal" : "font-light"
             }`}
           >
             ES
@@ -41,7 +41,11 @@ export const LanguageAndResume = () => {
         </div>
       </button>
       <a
-        href="/resume.pdf"
+        href={
+          language === "english"
+            ? "/resume/resume-english.pdf"
+            : "/resume/resume-espanol.pdf"
+        }
         download={true}
         className={`w-full h-full rounded-2xl p-4 shadow-md shadow-neutral-800 opacity-90 bg-amber-800 
           hover:scale-105 transition-all ease-in-out delay-100

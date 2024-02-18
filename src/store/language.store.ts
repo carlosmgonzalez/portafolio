@@ -1,26 +1,26 @@
 import { Language } from "@/interfaces/languages";
 import { create } from "zustand";
 import info from "../info.json";
+import { devtools } from "zustand/middleware";
 
 interface State {
   language: "english" | "spanish";
   setLanguage: () => void;
   info: Language;
-  setInfo: () => void;
 }
 
-export const useLanguageStore = create<State>()((set, get) => ({
-  language: "spanish",
-  info: info.ingles,
-  setLanguage: () =>
-    set((state) => {
-      return { language: state.language === "spanish" ? "english" : "spanish" };
-    }),
-  setInfo: () =>
-    set((state) => {
-      get().setLanguage();
-      return {
-        info: state.language === "english" ? info.ingles : info.español,
-      };
-    }),
-}));
+export const useLanguageStore = create<State>()(
+  devtools((set) => ({
+    language: "spanish",
+    info: info.español,
+    setLanguage: () =>
+      set((state) => {
+        const newLanguage =
+          state.language === "spanish" ? "english" : "spanish";
+        return {
+          language: newLanguage,
+          info: newLanguage === "english" ? info.ingles : info.español,
+        };
+      }),
+  }))
+);
