@@ -26,6 +26,10 @@
       "todoapp": {
         "titulo":"todo app",
         "descripcion": "This task app is pretty simple; the state handler is Redux. I saved the tasks to local storage, therefore, you can reload the page and the previously added tasks will still be there. You can create, edit and delete tasks, assign a title and description to each one."
+      },
+      "nextauth": {
+        "titulo": "nextauth",
+        "descripcion": "This application aims to highlight all the capabilities offered by NextAuth v5 and Next.js 14. It uses server actions, which represent the new methodology for executing functions, interacting with the database and managing scripts on the server side."
       }
     },
     "formulario": {
@@ -64,6 +68,10 @@
       "todoapp": {
         "titulo":"aplicación de tareas",
         "descripcion": "Esta aplicación de tareas es bastante sencilla; el manejador de estado es Redux. Guardé las tareas en el local storage, por lo tanto, puedes recargar la página y todavía estarán las tareas previamente agregadas. Puedes crear, editar y eliminar tareas, asignarles un título y una descripción a cada una."
+      },
+      "nextauth": {
+        "titulo": "nextauth",
+        "descripcion": "Esta aplicación tiene como objetivo destacar todas las capacidades ofrecidas por NextAuth v5 y Next.js 14. Utiliza las server actions, que representan la nueva metodología para ejecutar funciones, interactuar con la base de datos y gestionar scripts en el lado del servidor."
       }
     },
     "formulario": {

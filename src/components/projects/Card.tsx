@@ -32,7 +32,7 @@ export const Card = ({ url, image, text, title, page, children }: Props) => {
             </svg>
           </a>
           {page && (
-            <a href={page}>
+            <a href={page} target="_blank">
               <svg
                 fill="none"
                 stroke="currentColor"

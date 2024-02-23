@@ -12,6 +12,7 @@ export interface Proyectos {
   chatpdf: ProyectoInfo;
   spotifyClone: ProyectoInfo;
   todoapp: ProyectoInfo;
+  nextauth: ProyectoInfo;
 }
 
 export interface ProyectoInfo {

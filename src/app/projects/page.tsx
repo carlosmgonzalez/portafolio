@@ -9,6 +9,7 @@ import info from "../../info.json";
 import { useEffect, useState } from "react";
 import { Language } from "@/interfaces/languages";
 import { useLanguageStore } from "@/store/language.store";
+import { NextAuth } from "@/components/projects/NextAuth";
 
 export default function Projects() {
   const infoLenguage = useLanguageStore((state) => state.info);
@@ -41,6 +42,7 @@ export default function Projects() {
         <ChatWithPdf info={infoLenguage} />
         <SpotifyClone info={infoLenguage} />
         <TodoApp info={infoLenguage} />
+        <NextAuth info={infoLenguage} />
       </div>
     </div>
   );
