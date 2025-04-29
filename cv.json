@@ -1,0 +1,285 @@
+{
+  "basics": {
+    "name": "Carlos Mario Gonzalez Sarmiento",
+    "label": "Full-Stack Developer",
+    "image": "/me.webp",
+    "email": "carlosmgonzalez1998@gmail.com",
+    "phone": "+541140634529",
+    "url": "",
+    "summary": "Programador full-stack en formación, con enfoque principal en desarrollo web, mobile y backend, utilizando tecnologías modernas como React, React Native (con Expo), Node.js, NestJS, PostgreSQL, MongoDB, SQLite y Docker. Apasionado por la creación constante de proyectos personales para adquirir experiencia práctica, mejorar habilidades técnicas y lograr una inserción laboral en el sector tech.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Buenos Aires",
+      "countryCode": "AR",
+      "region": "Argentina"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "carlosmgonzalez1998",
+        "url": "https://linkedin.com/in/carlosmgonzalez1998"
+      },
+      {
+        "network": "X",
+        "username": "carlosmariog98_",
+        "url": "https://x.com/carlosmariog98_"
+      },
+      {
+        "network": "GitHub",
+        "username": "carlosmgonzalez",
+        "url": "https://github.com/carlosmgonzalez"
+      }
+    ]
+  },
+  "education": [
+    {
+      "institution":"", 
+      "startDate":"", 
+      "endDate":"", 
+      "area":""
+    }
+  ],
+  "work": [],
+  "volunteer": [],
+  "awards": [{
+    "title": "Award",
+    "date": "2014-11-01",
+    "awarder": "Company",
+    "summary": "There is no spoon."
+  }],
+  "certificates": [{
+    "name": "Certificate",
+    "date": "2021-11-07",
+    "issuer": "Company",
+    "url": "https://certificate.com"
+  }],
+  "publications": [{
+    "name": "Publication",
+    "publisher": "Company",
+    "releaseDate": "2014-10-01",
+    "url": "https://publication.com",
+    "summary": "Description…"
+  }],
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Frontend"
+      ]
+    },
+    {
+      "name": "CSS",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "Tailwind",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
+      ]
+    },
+    {
+      "name": "Nest",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Backend", "Servidor"
+      ]
+    },
+    {
+      "name": "Expo",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Mobile", "Frontend"
+      ]
+    },
+    {
+      "name": "Kotlin",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Mobile", "Frontend"
+      ]
+    },
+    {
+      "name": "Node",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Backend", "JavaScript", "Servidor"
+      ]
+    },
+    {
+      "name": "MySQL",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+      ]
+    },
+    {
+      "name": "Postgresql",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Avanzado",
+      "keywords": [
+        "Control de Versiones", "Colaboración", "Código Fuente"
+      ]
+    },
+    {
+      "name": "GitHub",
+      "level": "Avanzado",
+      "keywords": [
+        "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+      ]
+    },
+    {
+      "name": "Next.js",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
+      ]
+    },
+    {
+      "name": "React",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Advanced"
+    }
+  ],
+  "interests": [{
+    "name": "Wildlife",
+    "keywords": [
+      "Ferrets",
+      "Unicorns"
+    ]
+  }],
+  "references": [{
+    "name": "Jane Doe",
+    "reference": "Reference…"
+  }],
+  "projects": [
+    {
+      "name": "ChatGPT web",
+      "isActive": false,
+      "description": "Clone de chatgpt, creacion de imagenes y generacion de audio.",
+      "highlights": [
+        "Desarrollo Web Frontend",
+        "React"
+      ],
+      "url": "",
+      "github": "https://github.com/carlosmgonzalez/chatgpt-app-react"
+    },
+    {
+      "name": "ChatGPT mobile",
+      "isActive": false,
+      "description": "Clone de chatgpt para mobile, generacion de imagenes y audio",
+      "highlights": [
+        "Desarrollo Mobile",
+        "React native & Expo"
+      ],
+      "github": "https://github.com/carlosmgonzalez/chatgpt-app-react-native"
+    },
+    {
+      "name": "ChatGPT backend",
+      "isActive": false,
+      "description": "Backend el cual se implemento la api de OpenAI",
+      "highlights": [
+        "Desarrollo Backend",
+        "NestJs",
+        "OpenAi"
+      ],
+      "github": "https://github.com/carlosmgonzalez/chatgpt-app-nest"
+    },
+    {
+      "name": "Tienda teslo mobile",
+      "isActive": false,
+      "description": "Aplicacion mobile de una tienda",
+      "highlights": [
+        "Desarrollo Mobile",
+        "React Native & Expo"
+      ],
+      "github": "https://github.com/carlosmgonzalez/teslo-app-react-native"
+    },
+    {
+      "name": "Tienda teslo web",
+      "description": "Web de una tienda de ropa completa",
+      "highlights": [
+        "Desarrollo Web Full-Stack",
+        "NextJs & Tailwind"
+      ],
+      "github": "https://github.com/carlosmgonzalez/teslo-shop-next14"
+    },
+    {
+      "name": "Tienda teslo backend",
+      "isActive": false,
+      "description": "Api REST para la tienda teslo",
+      "highlights": [
+        "Desarrollo Backend",
+        "NestJs"
+      ],
+      "github": "https://github.com/midudev/teslo-shop-nest"
+    },
+    {
+      "name": "Habla con tu pdf",
+      "description": "Web para subir tu PDF y poder prguntar datos sobre su contenido",
+      "highlights": [
+        "Desarrollo Web Full-Stack",
+        "NextJs & Tailwind"
+      ],
+      "github": "https://github.com/carlosmgonzalez/chat-with-pdf-next"
+    },
+    {
+      "name": "Spotify clone",
+      "description": "Clone de spotify muy basico, albunes y repdroduccion de canciones.",
+      "highlights": [
+        "Desarrollo Web Full-Stack",
+        "Astro, React & Tailwind"
+      ],
+      "github": "https://github.com/carlosmgonzalez/spotify-clone"
+    },
+    {
+      "name": "Kotflix",
+      "description": "Aplicacion mobile para ver las peliculas que estan en cartelera, ver de que trata y el elenco que tiene.",
+      "highlights": [
+        "Desarrollo Mobile",
+        "Kotlin & Android"
+      ],
+      "github": "https://github.com/carlosmgonzalez/kotflix"
+    },
+    {
+      "name": "Tareas",
+      "description": "Aplicacion mobile para creacion la de tareas, creacion de usuario, almacenaciento de datos en la nube.",
+      "highlights": [
+        "Desarrollo Mobile",
+        "React Native & Expo",
+        "Firebase"
+      ],
+      "github": "https://github.com/carlosmgonzalez/my-todo-app-rn"
+    }
+  ]
+}
