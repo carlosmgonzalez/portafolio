@@ -19,6 +19,48 @@ const { image, summary, url } = basics;
     <link rel="icon" type="image/svg+xml" href="/me.webp" />
     <link rel="preload" as="image" href={image} />
     <meta name="generator" content={Astro.generator} />
+
+    <!-- Primary Meta Tags -->
+    <meta
+      name="title"
+      content="Carlos Mario Gonzalez - Desarrollador Web & Mobile"
+    />
+    <meta
+      name="description"
+      content="Soy Carlos Mario, desarrollador web y mobile enfocado en React, Node.js y más. ¡Conoce mis proyectos!"
+    />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={url} />
+    <meta
+      property="og:title"
+      content="Carlos Mario Gonzalez - Desarrollador Web & Mobile"
+    />
+    <meta
+      property="og:description"
+      content="Soy Carlos Mario, desarrollador web y mobile enfocado en React, Node.js y más. ¡Conoce mis proyectos!"
+    />
+    <meta
+      property="og:image"
+      content="https://asset.cloudinary.com/difikt7so/b272ebc2a798c25d574f430641c34683"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content={url} />
+    <meta
+      property="twitter:title"
+      content="Carlos Mario Gonzalez - Desarrollador Web & Mobile"
+    />
+    <meta
+      property="twitter:description"
+      content="Soy Carlos Mario, desarrollador web y mobile enfocado en React, Node.js y más. ¡Conoce mis proyectos!"
+    />
+    <meta
+      property="twitter:image"
+      content="https://asset.cloudinary.com/difikt7so/b272ebc2a798c25d574f430641c34683"
+    />
   </head>
   <body>
     <slot />
