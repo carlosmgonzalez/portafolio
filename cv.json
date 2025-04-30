@@ -185,13 +185,13 @@
   "projects": [
     {
       "name": "ChatGPT web",
-      "isActive": false,
+      "isActive": true,
       "description": "Clone de chatgpt, creacion de imagenes y generacion de audio.",
       "highlights": [
         "Desarrollo Web Frontend",
         "React"
       ],
-      "url": "",
+      "url": "https://chatgpt-carlos.netlify.app/assistant",
       "github": "https://github.com/carlosmgonzalez/chatgpt-app-react"
     },
     {
@@ -227,11 +227,13 @@
     },
     {
       "name": "Tienda teslo web",
+      "isActive": true,
       "description": "Web de una tienda de ropa completa",
       "highlights": [
         "Desarrollo Web Full-Stack",
         "NextJs & Tailwind"
       ],
+      "url": "https://teslo-shop-next14.vercel.app/",
       "github": "https://github.com/carlosmgonzalez/teslo-shop-next14"
     },
     {
