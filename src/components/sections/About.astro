@@ -1,12 +1,50 @@
 ---
-import Section from "../Section.astro";
 
-import { basics } from "@cv";
-const { summary } = basics;
 ---
 
-<Section title="Sobre mí">
-  <p>
-    {summary}
-  </p>
-</Section>
+<section>
+  <h2 class="title_about"></h2>
+  <p class="summary_about"></p>
+</section>
+
+<script>
+  const summary = document.querySelector(".summary_about");
+  const title = document.querySelector(".title_about");
+
+  import { language } from "@/store/languageStore";
+
+  import { basics as basicsSpa } from "@cv";
+  import { basics as basicsEng } from "@cv_en";
+
+  language.subscribe((value) => {
+    if (value === "english") {
+      summary!.textContent = basicsEng.summary;
+      title!.textContent = "About me";
+    }
+    if (value === "spanish") {
+      summary!.textContent = basicsSpa.summary;
+      title!.textContent = "Sobre mí";
+    }
+  });
+</script>
+
+<style>
+  section {
+    max-width: 700px;
+    margin: 0 auto 48px;
+  }
+
+  h2 {
+    margin-bottom: 8px;
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 1.5rem;
+  }
+
+  @media (width <= 700px) {
+    section {
+      margin-bottom: 38px;
+      padding: 10px 10px;
+    }
+  }
+</style>

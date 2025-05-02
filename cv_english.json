@@ -6,7 +6,7 @@
     "email": "carlosmgonzalez1998@gmail.com",
     "phone": "+541140634529",
     "url": "https://carlosmgonzalez.netlify.app/",
-    "summary": "Programador full-stack en formación, con enfoque principal en desarrollo web, mobile y backend, utilizando tecnologías modernas como React, React Native (con Expo), Node.js, NestJS, PostgreSQL, MongoDB, SQLite y Docker. Apasionado por la creación constante de proyectos personales para adquirir experiencia práctica, mejorar habilidades técnicas y lograr una inserción laboral en el sector tech.",
+    "summary": "Full-stack developer in training, with a primary focus on web, mobile, and backend development, using modern technologies such as React, React Native (with Expo), Node.js, NestJS, PostgreSQL, MongoDB, SQLite, and Docker. Passionate about constantly creating personal projects to gain hands-on experience, improve technical skills, and achieve employment in the tech sector.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -34,10 +34,10 @@
   },
   "education": [
     {
-      "institution":"", 
-      "startDate":"", 
-      "endDate":"", 
-      "area":""
+      "institution": "",
+      "startDate": "",
+      "endDate": "",
+      "area": ""
     }
   ],
   "work": [],
@@ -66,91 +66,98 @@
       "name": "HTML",
       "level": "Master",
       "keywords": [
-        "Desarrollo Web", "Frontend"
+        "Web Development", "Frontend"
       ]
     },
     {
       "name": "CSS",
       "level": "Master",
       "keywords": [
-        "Desarrollo Web", "Frontend", "Diseño Responsive"
+        "Web Development", "Frontend", "Responsive Design"
       ]
     },
     {
       "name": "Tailwind",
-      "level": "Avanzado",
+      "level": "Advanced",
       "keywords": [
-        "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+        "Web Development", "Frontend", "CSS Framework", "Responsive Design"
       ]
     },
     {
       "name": "TypeScript",
-      "level": "Avanzado",
+      "level": "Advanced",
       "keywords": [
-        "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
+        "Web Development", "Frontend", "Backend", "JavaScript Superset"
       ]
     },
     {
       "name": "Nest",
       "level": "Master",
       "keywords": [
-        "Desarrollo Web", "Backend", "Servidor"
+        "Web Development", "Backend", "Server"
       ]
     },
     {
       "name": "Expo",
       "level": "Master",
       "keywords": [
-        "Desarrollo Mobile", "Frontend"
+        "Mobile Development", "Frontend"
       ]
     },
     {
       "name": "Kotlin",
       "level": "Master",
       "keywords": [
-        "Desarrollo Mobile", "Frontend"
+        "Mobile Development", "Frontend"
       ]
     },
     {
       "name": "Node",
-      "level": "Avanzado",
+      "level": "Advanced",
       "keywords": [
-        "Desarrollo Web", "Backend", "JavaScript", "Servidor"
+        "Web Development", "Backend", "JavaScript", "Server"
+      ]
+    },
+    {
+      "name": "MySQL",
+      "level": "Advanced",
+      "keywords": [
+        "Databases", "SQL", "Data Storage", "Backend"
       ]
     },
     {
       "name": "Postgresql",
-      "level": "Avanzado",
+      "level": "Advanced",
       "keywords": [
-        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+        "Databases", "SQL", "Data Storage", "Backend"
       ]
     },
     {
       "name": "Git",
-      "level": "Avanzado",
+      "level": "Advanced",
       "keywords": [
-        "Control de Versiones", "Colaboración", "Código Fuente"
+        "Version Control", "Collaboration", "Source Code"
       ]
     },
     {
       "name": "GitHub",
-      "level": "Avanzado",
+      "level": "Advanced",
       "keywords": [
-        "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+        "Version Control", "Collaboration", "Source Code", "Git"
       ]
     },
     {
       "name": "Next.js",
-      "level": "Avanzado",
+      "level": "Advanced",
       "keywords": [
-        "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
+        "Web Development", "Frontend", "React Framework", "SSR", "Static Generation"
       ]
     },
     {
       "name": "React",
-      "level": "Avanzado",
+      "level": "Advanced",
       "keywords": [
-        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+        "Web Development", "Frontend", "JavaScript Library", "UI"
       ]
     }
   ],
@@ -179,9 +186,9 @@
     {
       "name": "ChatGPT web",
       "isActive": true,
-      "description": "Clone de chatgpt, creacion de imagenes y generacion de audio.",
+      "description": "Chatgpt clone, image creation and audio generation..",
       "highlights": [
-        "Desarrollo Web Frontend",
+        "Frontend Web Development",
         "React"
       ],
       "url": "https://chatgpt-carlos.netlify.app/assistant",
@@ -190,9 +197,9 @@
     {
       "name": "ChatGPT mobile",
       "isActive": false,
-      "description": "Clone de chatgpt para mobile, generacion de imagenes y audio",
+      "description": "ChatGPT clone for mobile, image and audio generation.",
       "highlights": [
-        "Desarrollo Mobile",
+        "Mobile Development",
         "React native & Expo"
       ],
       "github": "https://github.com/carlosmgonzalez/chatgpt-app-react-native"
@@ -200,77 +207,77 @@
     {
       "name": "ChatGPT backend",
       "isActive": false,
-      "description": "Api rest creade con NestJS, maneja todas las peticiones y el cual se implemento la api de OpenAI",
+      "description": "REST API created with NestJS, handles all requests and the OpenAI API was implemented",
       "highlights": [
-        "Desarrollo Backend",
+        "Backend Development",
         "NestJs",
         "OpenAi"
       ],
       "github": "https://github.com/carlosmgonzalez/chatgpt-app-nest"
     },
     {
-      "name": "Tienda teslo mobile",
+      "name": "Teslo store mobile",
       "isActive": false,
-      "description": "Aplicacion mobile de una tienda",
+      "description": "Mobile app for a store",
       "highlights": [
-        "Desarrollo Mobile",
+        "Mobile Development",
         "React Native & Expo"
       ],
       "github": "https://github.com/carlosmgonzalez/teslo-app-react-native"
     },
     {
-      "name": "Tienda teslo web",
+      "name": "Teslo store web",
       "isActive": true,
-      "description": "Web de una tienda de ropa completa",
+      "description": "Complete clothing store website, it has authentication, a shopping cart, checkout, and a dashboard for creating new products.",
       "highlights": [
-        "Desarrollo Web Full-Stack",
+        "Full-Stack Web Development",
         "NextJs & Tailwind"
       ],
       "url": "https://teslo-shop-next14.vercel.app/",
       "github": "https://github.com/carlosmgonzalez/teslo-shop-next14"
     },
     {
-      "name": "Tienda teslo backend",
+      "name": "Teslo store backend",
       "isActive": false,
-      "description": "Api REST para la tienda teslo",
+      "description": "REST API for the Teslo store, which handles all requests for product creation and deletion, user creation and management",
       "highlights": [
-        "Desarrollo Backend",
+        "Backend Development",
         "NestJs"
       ],
       "github": "https://github.com/midudev/teslo-shop-nest"
     },
     {
-      "name": "Habla con tu pdf",
-      "description": "Web para subir tu PDF y poder prguntar datos sobre su contenido",
+      "name": "Chat to your pdf",
+      "description": "Web app to upload your PDF and ask about its content",
       "highlights": [
-        "Desarrollo Web Full-Stack",
+        "Full-Stack Web Development",
         "NextJs & Tailwind"
       ],
       "github": "https://github.com/carlosmgonzalez/chat-with-pdf-next"
     },
     {
       "name": "Spotify clone",
-      "description": "Clone de spotify muy basico, albunes y repdroduccion de canciones.",
+      "description": "Very basic Spotify clone, albums and song playback.",
       "highlights": [
-        "Desarrollo Web Full-Stack",
+        "Full-Stack Web Development",
         "Astro, React & Tailwind"
       ],
       "github": "https://github.com/carlosmgonzalez/spotify-clone"
     },
     {
       "name": "Kotflix",
-      "description": "Aplicacion mobile para ver las peliculas que estan en cartelera, ver de que trata y el elenco que tiene.",
+      "description": "Mobile app to view current movies, read their plot and see the cast.",
       "highlights": [
-        "Desarrollo Mobile",
+        "Mobile Development",
         "Kotlin & Android"
       ],
       "github": "https://github.com/carlosmgonzalez/kotflix"
     },
     {
-      "name": "Tareas",
-      "description": "Aplicacion mobile para creacion la de tareas, creacion de usuario, almacenaciento de datos en la nube.",
+      "name": "Todos",
+      "description": "Mobile app to create tasks, user creation, and cloud data storage.",
       "highlights": [
-        "Desarrollo Mobile",
+        "Mobile Development",
         "React Native & Expo",
         "Firebase"
       ],

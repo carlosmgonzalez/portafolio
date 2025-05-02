@@ -1,5 +1,4 @@
 ---
-import Section from "../Section.astro";
 import HTML from "@/icons/html.astro";
 import CSS from "@/icons/css.astro";
 import JavaScript from "@/icons/javascript.astro";
@@ -42,7 +41,8 @@ const SKILLS_ICONS: Record<string, any> = {
 };
 ---
 
-<Section title="Habilidades">
+<section>
+  <h2 class="title_skills"></h2>
   <ul>
     {
       skills.map(({ name }) => {
@@ -57,7 +57,22 @@ const SKILLS_ICONS: Record<string, any> = {
       })
     }
   </ul>
-</Section>
+</section>
+
+<script>
+  const title = document.querySelector(".title_skills");
+
+  import { language } from "@/store/languageStore";
+
+  language.subscribe((value) => {
+    if (value === "english") {
+      title!.textContent = "Skills";
+    }
+    if (value === "spanish") {
+      title!.textContent = "Habilidades";
+    }
+  });
+</script>
 
 <style>
   ul {
@@ -76,5 +91,24 @@ const SKILLS_ICONS: Record<string, any> = {
     font-weight: 500;
     gap: 4px;
     padding: 0.2rem 0.6rem;
+  }
+
+  section {
+    max-width: 700px;
+    margin: 0 auto 48px;
+  }
+
+  h2 {
+    margin-bottom: 8px;
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 1.5rem;
+  }
+
+  @media (width <= 700px) {
+    section {
+      margin-bottom: 38px;
+      padding: 10px 10px;
+    }
   }
 </style>

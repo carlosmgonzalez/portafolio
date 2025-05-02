@@ -3,11 +3,13 @@ import About from "@/components/sections/About.astro";
 import Education from "@/components/sections/Education.astro";
 import Experience from "@/components/sections/Experience.astro";
 import Hero from "@/components/sections/Hero.astro";
-import Projects from "@/components/sections/Projects.astro";
+// import Projects from "@/components/sections/Projects.astro";
+import Projects from "@/components/svelte/sections/Projects.svelte";
 import Skills from "@/components/sections/Skills.astro";
 import Layout from "../layouts/Layout.astro";
 
 import { basics } from "@cv";
+import Section from "@/components/Section.astro";
 const { name, label } = basics;
 
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
@@ -20,7 +22,8 @@ const { name, label } = basics;
     <About />
     <!-- <Experience /> -->
     <!-- <Education /> -->
-    <Projects />
+    <!-- <Projects client:idle /> -->
+    <Projects client:only />
     <Skills />
   </main>
 </Layout>
