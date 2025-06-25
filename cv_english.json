@@ -6,7 +6,7 @@
     "email": "carlosmgonzalez1998@gmail.com",
     "phone": "+541140634529",
     "url": "https://carlosmgonzalez.netlify.app/",
-    "summary": "Full-stack developer in training, with a primary focus on web, mobile, and backend development, using modern technologies such as React, React Native (with Expo), Node.js, NestJS, PostgreSQL, MongoDB, SQLite, and Docker. Passionate about constantly creating personal projects to gain hands-on experience, improve technical skills, and achieve employment in the tech sector.",
+    "summary": "Full-stack developer in training, with a primary focus on web, mobile, and backend development, using modern technologies such as NextJs, Sveltekit, React Native (with Expo), NodeJs, NestJS, PostgreSQL, MongoDB, SQLite, and Docker. Passionate about constantly creating personal projects to gain hands-on experience, improve technical skills, and achieve employment in the tech sector.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -183,6 +183,17 @@
     "reference": "Reference…"
   }],
   "projects": [
+    {
+      "name": "Neworld online store",
+      "isActive": true,
+      "description": "Fully functional technology store with integrated payments.",
+      "highlights": [
+        "Frontend Web Development",
+        "Backend Development",
+        "Sveltekit"
+      ],
+      "url": "https://www.neworld.com.ar"
+    },
     {
       "name": "ChatGPT web",
       "isActive": true,

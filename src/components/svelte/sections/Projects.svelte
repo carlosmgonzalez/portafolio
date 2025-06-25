@@ -29,8 +29,7 @@
   <h2>
     {#if lan === "english"}
       Projects
-    {/if}
-    {#if lan === "spanish"}
+    {:else}
       Proyectos
     {/if}
   </h2>
@@ -129,10 +128,6 @@
   article h3 {
     margin-bottom: 4px;
   }
-
-  /* article  {
-    color: #111;
-  } */
 
   article a {
     color: #111;

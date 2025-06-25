@@ -6,7 +6,7 @@
     "email": "carlosmgonzalez1998@gmail.com",
     "phone": "+541140634529",
     "url": "https://carlosmgonzalez.netlify.app/",
-    "summary": "Programador full-stack en formación, con enfoque principal en desarrollo web, mobile y backend, utilizando tecnologías modernas como React, React Native (con Expo), Node.js, NestJS, PostgreSQL, MongoDB, SQLite y Docker. Apasionado por la creación constante de proyectos personales para adquirir experiencia práctica, mejorar habilidades técnicas y lograr una inserción laboral en el sector tech.",
+    "summary": "Programador full-stack en formación, con enfoque principal en desarrollo web, mobile y backend, utilizando tecnologías modernas como NextJs, Sveltekit, React Native (con Expo), NodeJs, NestJS, PostgreSQL, MongoDB, SQLite y Docker. Apasionado por la creación constante de proyectos personales para adquirir experiencia práctica, mejorar habilidades técnicas y lograr una inserción laboral en el sector tech.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -147,6 +147,13 @@
       ]
     },
     {
+      "name": "Svelte",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Backend", "Sveltekit Framework", "SSR"
+      ]
+    },
+    {
       "name": "React",
       "level": "Avanzado",
       "keywords": [
@@ -176,6 +183,17 @@
     "reference": "Reference…"
   }],
   "projects": [
+    {
+      "name": "Neworld tienda",
+      "isActive": true,
+      "description": "Tienda de tecnología, totalmente funcional, con pagos integrados.",
+      "highlights": [
+        "Desarrollo Web Frontend",
+        "Desarrollo Backend",
+        "Sveltekit"
+      ],
+      "url": "https://www.neworld.com.ar"
+    },
     {
       "name": "ChatGPT web",
       "isActive": true,
