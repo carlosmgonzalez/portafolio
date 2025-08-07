@@ -7,18 +7,18 @@ import Projects from "@/components/sections/Projects.astro";
 import Skills from "@/components/sections/Skills.astro";
 import Layout from "../layouts/Layout.astro";
 
-import { basics, projects, education, work } from "cv_english.json";
+import { basics, education, work, projects } from "@cv";
 
 const { name, label } = basics;
 ---
 
 <Layout title={`Portafolio de ${name} - ${label}`}>
     <main>
-        <Hero href="/spanish" basics={basics} />
-        <About title="About me" summary={basics.summary} />
-        <Experience title="Work experience" work={work} />
-        <Education title="Education" education={education} />
-        <Projects title="Projects" projects={projects} />
-        <Skills title="Skills" />
+        <Hero href="/" basics={basics} />
+        <About title="Sobre mí" summary={basics.summary} />
+        <Experience title="Experiencia laboral" work={work} />
+        <Education title="Educación" education={education} />
+        <Projects title="Proyectos" projects={projects} />
+        <Skills title="Habilidades" />
     </main>
 </Layout>

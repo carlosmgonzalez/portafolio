@@ -1,32 +1,16 @@
 ---
+interface Props {
+    title: string;
+    summary: string;
+}
 
+const { title, summary } = Astro.props;
 ---
 
 <section>
-    <h2 class="title_about"></h2>
-    <p class="summary_about"></p>
+    <h2 class="title_about">{title}</h2>
+    <p class="summary_about">{summary}</p>
 </section>
-
-<script>
-    const summary = document.querySelector(".summary_about");
-    const title = document.querySelector(".title_about");
-
-    import { language } from "@/store/languageStore";
-
-    import { basics as basicsSpa } from "@cv";
-    import { basics as basicsEng } from "@cv_en";
-
-    language.subscribe((value) => {
-        if (value === "english") {
-            summary!.textContent = basicsEng.summary;
-            title!.textContent = "About me";
-        }
-        if (value === "spanish") {
-            summary!.textContent = basicsSpa.summary;
-            title!.textContent = "Sobre mí";
-        }
-    });
-</script>
 
 <style>
     section {

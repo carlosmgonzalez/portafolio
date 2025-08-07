@@ -34,13 +34,27 @@
     },
     "education": [
         {
-            "institution": "",
-            "startDate": "",
-            "endDate": "",
-            "area": ""
+            "institution": "Web and Mobile Development - Self-taught",
+            "startDate": "August 2022",
+            "endDate": "July 2025",
+            "area": "Intensive training in web and mobile application development through: \n- Study of official technical documentation \n- Development of practical projects \n- Use of modern development tools (Cursor AI) \n- Continuous learning through specialized digital resources"
         }
     ],
-    "work": [],
+    "work": [
+        {
+            "name": "Neworld",
+            "startDate": "February 2025",
+            "endDate": "July 2025",
+            "position": "FullStack Web Developer",
+            "summary": "Developed an online store integrating MercadoPago as payment gateway. \nUsed SvelteKit framework for both backend and frontend construction. \nPostgreSQL database was used with Prisma as ORM",
+            "highlights": [
+                "Backend Development",
+                "Sveltekit",
+                "Frontend Web Development"
+            ],
+            "url": "https://www.neworld.com.ar"
+        }
+    ],
     "volunteer": [],
     "awards": [
         {
@@ -245,12 +259,14 @@
         },
         {
             "name": "Chat to your pdf",
+            "isActive": false,
             "description": "Web app to upload your PDF and ask about its content",
             "highlights": ["Full-Stack Web Development", "NextJs & Tailwind"],
             "github": "https://github.com/carlosmgonzalez/chat-with-pdf-next"
         },
         {
             "name": "Spotify clone",
+            "isActive": false,
             "description": "Very basic Spotify clone, albums and song playback.",
             "highlights": [
                 "Full-Stack Web Development",
@@ -260,12 +276,14 @@
         },
         {
             "name": "Kotflix",
+            "isActive": false,
             "description": "Mobile app to view current movies, read their plot and see the cast.",
             "highlights": ["Mobile Development", "Kotlin & Android"],
             "github": "https://github.com/carlosmgonzalez/kotflix"
         },
         {
             "name": "Todos",
+            "isActive": false,
             "description": "Mobile app to create tasks, user creation, and cloud data storage.",
             "highlights": [
                 "Mobile Development",

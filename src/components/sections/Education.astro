@@ -1,19 +1,24 @@
 ---
 import Section from "../Section.astro";
 
-import { education } from "@cv";
+interface Props {
+    title: string;
+    education: {
+        institution: string;
+        startDate: string;
+        endDate: string;
+        area: string;
+    }[];
+}
+
+const { title, education } = Astro.props;
 ---
 
-<Section title="Educación">
+<Section title={title}>
     <ul>
         {
             education.map(({ institution, startDate, endDate, area }) => {
-                const startYear = new Date(startDate).getFullYear();
-                const endYear =
-                    endDate != null
-                        ? new Date(endDate).getFullYear()
-                        : "Actual";
-                const years = `${startYear} - ${endYear}`;
+                const years = `${startDate} - ${endDate}`;
 
                 return (
                     <li>
@@ -60,6 +65,10 @@ import { education } from "@cv";
         color: #555;
         font-size: 0.85rem;
         min-width: 102px;
+    }
+
+    footer p {
+        white-space: pre-line;
     }
 
     @media (width <= 700px) {

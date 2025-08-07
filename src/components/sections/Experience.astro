@@ -1,10 +1,23 @@
 ---
 import Section from "../Section.astro";
 
-import { work } from "@cv";
+interface Props {
+    title: string;
+    work: {
+        name: string;
+        startDate: string;
+        endDate: string;
+        position: string;
+        summary: string;
+        highlights: string[];
+        url: string;
+    }[];
+}
+
+const { title, work } = Astro.props;
 ---
 
-<Section title="Experiencia laboral">
+<Section title={title}>
     <ul>
         {
             work.map(
@@ -17,12 +30,6 @@ import { work } from "@cv";
                     highlights,
                     url,
                 }) => {
-                    const startYear = new Date(startDate).getFullYear();
-                    const endYear =
-                        endDate != null
-                            ? new Date(endDate).getFullYear()
-                            : "Actual";
-
                     return (
                         <li>
                             <article>
@@ -41,19 +48,9 @@ import { work } from "@cv";
                                     </div>
 
                                     <div>
-                                        <time
-                                            datetime={startDate}
-                                            data-title={startDate}
-                                        >
-                                            {startYear}
-                                        </time>
+                                        <time>{startDate}</time>
                                         {" - "}
-                                        <time
-                                            datetime={endDate}
-                                            data-title={endDate}
-                                        >
-                                            {endYear}
-                                        </time>
+                                        <time>{endDate}</time>
                                     </div>
                                 </header>
 
@@ -99,6 +96,10 @@ import { work } from "@cv";
         justify-content: space-between;
         align-items: flex-start;
         margin-bottom: 4px;
+    }
+
+    footer p {
+        white-space: pre-line;
     }
 
     time {

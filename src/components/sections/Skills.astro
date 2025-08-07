@@ -41,10 +41,18 @@ const SKILLS_ICONS: Record<string, any> = {
     Expo,
     Svelte,
 };
+
+interface Props {
+    title: string;
+}
+
+const { title } = Astro.props;
 ---
 
 <section>
-    <h2 class="title_skills"></h2>
+    <h2 class="title_skills">
+        {title}
+    </h2>
     <ul>
         {
             skills.map(({ name }) => {
@@ -60,21 +68,6 @@ const SKILLS_ICONS: Record<string, any> = {
         }
     </ul>
 </section>
-
-<script>
-    const title = document.querySelector(".title_skills");
-
-    import { language } from "@/store/languageStore";
-
-    language.subscribe((value) => {
-        if (value === "english") {
-            title!.textContent = "Skills";
-        }
-        if (value === "spanish") {
-            title!.textContent = "Habilidades";
-        }
-    });
-</script>
 
 <style>
     ul {
