@@ -21,96 +21,96 @@ import Expo from "@/icons/expo.astro";
 import Svelte from "@/icons/svelte.astro";
 
 const SKILLS_ICONS: Record<string, any> = {
-  HTML,
-  CSS,
-  JavaScript,
-  TypeScript,
-  React,
-  Node,
-  MySQL,
-  Git,
-  GitHub,
-  Next,
-  Tailwind,
-  Swift,
-  SwiftUI,
-  Kotlin,
-  Flutter,
-  Nest,
-  Postgresql,
-  Expo,
-  Svelte,
+    HTML,
+    CSS,
+    JavaScript,
+    TypeScript,
+    React,
+    Node,
+    MySQL,
+    Git,
+    GitHub,
+    Next,
+    Tailwind,
+    Swift,
+    SwiftUI,
+    Kotlin,
+    Flutter,
+    Nest,
+    Postgresql,
+    Expo,
+    Svelte,
 };
 ---
 
 <section>
-  <h2 class="title_skills"></h2>
-  <ul>
-    {
-      skills.map(({ name }) => {
-        const iconName = name === "Next.js" ? "Next" : name;
-        const Icon = SKILLS_ICONS[iconName];
+    <h2 class="title_skills"></h2>
+    <ul>
+        {
+            skills.map(({ name }) => {
+                const iconName = name === "Next.js" ? "Next" : name;
+                const Icon = SKILLS_ICONS[iconName];
 
-        return (
-          <li>
-            {Icon && <Icon />} <span>{name}</span>
-          </li>
-        );
-      })
-    }
-  </ul>
+                return (
+                    <li>
+                        {Icon && <Icon />} <span>{name}</span>
+                    </li>
+                );
+            })
+        }
+    </ul>
 </section>
 
 <script>
-  const title = document.querySelector(".title_skills");
+    const title = document.querySelector(".title_skills");
 
-  import { language } from "@/store/languageStore";
+    import { language } from "@/store/languageStore";
 
-  language.subscribe((value) => {
-    if (value === "english") {
-      title!.textContent = "Skills";
-    }
-    if (value === "spanish") {
-      title!.textContent = "Habilidades";
-    }
-  });
+    language.subscribe((value) => {
+        if (value === "english") {
+            title!.textContent = "Skills";
+        }
+        if (value === "spanish") {
+            title!.textContent = "Habilidades";
+        }
+    });
 </script>
 
 <style>
-  ul {
-    display: inline-flex;
-    gap: 8px;
-    flex-wrap: wrap;
-  }
-
-  li {
-    align-items: center;
-    background: #eee;
-    border-radius: 6px;
-    color: black;
-    display: flex;
-    font-size: 0.8rem;
-    font-weight: 500;
-    gap: 4px;
-    padding: 0.2rem 0.6rem;
-  }
-
-  section {
-    max-width: 700px;
-    margin: 0 auto 48px;
-  }
-
-  h2 {
-    margin-bottom: 8px;
-    font-weight: 700;
-    line-height: 1.5;
-    font-size: 1.5rem;
-  }
-
-  @media (width <= 700px) {
-    section {
-      margin-bottom: 38px;
-      padding: 10px 10px;
+    ul {
+        display: inline-flex;
+        gap: 8px;
+        flex-wrap: wrap;
     }
-  }
+
+    li {
+        align-items: center;
+        background: #eee;
+        border-radius: 6px;
+        color: black;
+        display: flex;
+        font-size: 0.8rem;
+        font-weight: 500;
+        gap: 4px;
+        padding: 0.2rem 0.6rem;
+    }
+
+    section {
+        max-width: 700px;
+        margin: 0 auto 48px;
+    }
+
+    h2 {
+        margin-bottom: 8px;
+        font-weight: 700;
+        line-height: 1.5;
+        font-size: 1.5rem;
+    }
+
+    @media (width <= 700px) {
+        section {
+            margin-bottom: 38px;
+            padding: 10px 10px;
+        }
+    }
 </style>
