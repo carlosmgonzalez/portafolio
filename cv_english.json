@@ -6,7 +6,7 @@
         "email": "carlosmgonzalez1998@gmail.com",
         "phone": "+541140634529",
         "url": "https://carlosmgonzalez.netlify.app/",
-        "summary": "Full-stack developer in training, with a primary focus on web, mobile, and backend development, using modern technologies such as NextJs, Sveltekit, React Native (with Expo), NodeJs, NestJS, PostgreSQL, MongoDB, SQLite, and Docker. Passionate about constantly creating personal projects to gain hands-on experience, improve technical skills, and achieve employment in the tech sector.",
+        "summary": "Full-Stack Developer specialized in web, mobile, and backend development, proficient in modern technologies such as React, React Native (with Expo), Node.js, NestJS, PostgreSQL, MongoDB, SQLite, and Docker. Passionate about building efficient and scalable solutions, combining strong technical knowledge with hands-on experience from multiple personal and collaborative projects. Committed to code quality, continuous improvement, and delivering results that make a real impact.",
         "location": {
             "address": "",
             "postalCode": "",
@@ -46,7 +46,7 @@
             "startDate": "February 2025",
             "endDate": "July 2025",
             "position": "FullStack Web Developer",
-            "summary": "Developed an online store integrating MercadoPago as payment gateway. \nUsed SvelteKit framework for both backend and frontend construction. \nPostgreSQL database was used with Prisma as ORM",
+            "summary": "I developed a complete online store, implementing a payment gateway with MercadoPago. I used SvelteKit to build both the frontend and backend, and managed the PostgreSQL database with Prisma as the ORM. The goal was to create a robust and scalable e-commerce platform.",
             "highlights": [
                 "Backend Development",
                 "Sveltekit",
@@ -205,7 +205,7 @@
         {
             "name": "Neworld online store",
             "isActive": true,
-            "description": "Fully functional technology store with integrated payments.",
+            "description": "Development of a fully functional technology store, with integration of the MercadoPago payment gateway to securely process transactions.",
             "highlights": [
                 "Frontend Web Development",
                 "Backend Development",
@@ -214,9 +214,21 @@
             "url": "https://www.neworld.com.ar"
         },
         {
+            "name": "Helpy",
+            "isActive": true,
+            "description": "A web platform to connect users with local professionals via an interactive map, making it easy to find and contact experts to solve service needs quickly and efficiently.",
+            "highlights": [
+                "Full-Stack Web Development",
+                "Interactive Maps",
+                "Geolocation"
+            ],
+            "url": "https://www.helpy.work",
+            "github": "https://github.com/carlosmgonzalez/helpy"
+        },
+        {
             "name": "ChatGPT web",
             "isActive": true,
-            "description": "Chatgpt clone, image creation and audio generation..",
+            "description": "ChatGPT clone with advanced features, including image and audio generation by integrating with the OpenAI API.",
             "highlights": ["Frontend Web Development", "React"],
             "url": "https://chatgpt-carlos.netlify.app/assistant",
             "github": "https://github.com/carlosmgonzalez/chatgpt-app-react"
@@ -224,28 +236,28 @@
         {
             "name": "ChatGPT mobile",
             "isActive": false,
-            "description": "ChatGPT clone for mobile, image and audio generation.",
+            "description": "Mobile version of the ChatGPT clone, developed with React Native and Expo, enabling image and audio generation on mobile devices.",
             "highlights": ["Mobile Development", "React native & Expo"],
             "github": "https://github.com/carlosmgonzalez/chatgpt-app-react-native"
         },
         {
             "name": "ChatGPT backend",
             "isActive": false,
-            "description": "REST API created with NestJS, handles all requests and the OpenAI API was implemented",
+            "description": "RESTful API built with NestJS to manage client requests and integration with the OpenAI API, serving as the application's brain.",
             "highlights": ["Backend Development", "NestJs", "OpenAi"],
             "github": "https://github.com/carlosmgonzalez/chatgpt-app-nest"
         },
         {
             "name": "Teslo store mobile",
             "isActive": false,
-            "description": "Mobile app for a store",
+            "description": "E-commerce mobile application for a clothing store, developed with React Native and Expo to provide a seamless shopping experience.",
             "highlights": ["Mobile Development", "React Native & Expo"],
             "github": "https://github.com/carlosmgonzalez/teslo-app-react-native"
         },
         {
             "name": "Teslo store web",
             "isActive": true,
-            "description": "Complete clothing store website, it has authentication, a shopping cart, checkout, and a dashboard for creating new products.",
+            "description": "A complete e-commerce web platform for a clothing store, built with Next.js and Tailwind CSS for optimal performance and a modern design.",
             "highlights": ["Full-Stack Web Development", "NextJs & Tailwind"],
             "url": "https://teslo-shop-next14.vercel.app/",
             "github": "https://github.com/carlosmgonzalez/teslo-shop-next14"
@@ -253,21 +265,21 @@
         {
             "name": "Teslo store backend",
             "isActive": false,
-            "description": "REST API for the Teslo store, which handles all requests for product creation and deletion, user creation and management",
+            "description": "Robust REST API developed with NestJS, designed to manage products, orders, and user authentication for the Teslo platform.",
             "highlights": ["Backend Development", "NestJs"],
             "github": "https://github.com/midudev/teslo-shop-nest"
         },
         {
             "name": "Chat to your pdf",
             "isActive": false,
-            "description": "Web app to upload your PDF and ask about its content",
+            "description": "Web application that allows users to interact with their PDF documents, asking questions and getting answers based on the file's content.",
             "highlights": ["Full-Stack Web Development", "NextJs & Tailwind"],
             "github": "https://github.com/carlosmgonzalez/chat-with-pdf-next"
         },
         {
             "name": "Spotify clone",
             "isActive": false,
-            "description": "Very basic Spotify clone, albums and song playback.",
+            "description": "Functional Spotify clone that allows browsing albums and playing songs, built with Astro, React, and Tailwind for a fast and modern interface.",
             "highlights": [
                 "Full-Stack Web Development",
                 "Astro, React & Tailwind"
@@ -277,14 +289,14 @@
         {
             "name": "Kotflix",
             "isActive": false,
-            "description": "Mobile app to view current movies, read their plot and see the cast.",
+            "description": "Mobile application to browse movies currently in theaters, view details like synopsis and cast. Natively developed for Android with Kotlin.",
             "highlights": ["Mobile Development", "Kotlin & Android"],
             "github": "https://github.com/carlosmgonzalez/kotflix"
         },
         {
             "name": "Todos",
             "isActive": false,
-            "description": "Mobile app to create tasks, user creation, and cloud data storage.",
+            "description": "Task management mobile application with user authentication and cloud data storage, using Firebase and React Native.",
             "highlights": [
                 "Mobile Development",
                 "React Native & Expo",

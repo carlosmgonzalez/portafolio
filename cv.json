@@ -6,7 +6,7 @@
         "email": "carlosmgonzalez1998@gmail.com",
         "phone": "+541140634529",
         "url": "https://carlosmgonzalez.netlify.app/",
-        "summary": "Programador full-stack en formación, con enfoque principal en desarrollo web, mobile y backend, utilizando tecnologías modernas como NextJs, Sveltekit, React Native (con Expo), NodeJs, NestJS, PostgreSQL, MongoDB, SQLite y Docker. Apasionado por la creación constante de proyectos personales para adquirir experiencia práctica, mejorar habilidades técnicas y lograr una inserción laboral en el sector tech.",
+        "summary": "Programador Full-Stack especializado en desarrollo web, mobile y backend, con dominio de tecnologías modernas como React, React Native (con Expo), Node.js, NestJS, PostgreSQL, MongoDB, SQLite y Docker. Apasionado por crear soluciones eficientes y escalables, combinando un sólido conocimiento técnico con experiencia práctica adquirida a través de múltiples proyectos personales y colaborativos. Comprometido con la calidad del código, la mejora continua y la entrega de resultados que generen impacto real.",
         "location": {
             "address": "",
             "postalCode": "",
@@ -46,7 +46,7 @@
             "startDate": "Febrero 2025",
             "endDate": "Julio 2025",
             "position": "Desarrollador Web FullStack",
-            "summary": "Se desarrollo una tienda online integrando MercadoPago como pasarela de pago. \nSe uso el framework SvelteKit para su construcción tanto su backend como su frontend. \nLa base de datos que se uso fue postgres y prisma como ORM",
+            "summary": "Desarrollé una tienda online completa, implementando una pasarela de pagos con MercadoPago. Utilicé SvelteKit para construir tanto el frontend como el backend, y gestioné la base de datos PostgreSQL con Prisma como ORM. El objetivo fue crear una plataforma de e-commerce robusta y escalable.",
             "highlights": [
                 "Desarrollo Backend",
                 "Sveltekit",
@@ -220,7 +220,7 @@
         {
             "name": "Neworld tienda",
             "isActive": true,
-            "description": "Tienda de tecnología, totalmente funcional, con pagos integrados.",
+            "description": "Desarrollo de una tienda de tecnología completamente funcional, con integración de la pasarela de pagos de MercadoPago para procesar transacciones de forma segura.",
             "highlights": [
                 "Desarrollo Web Frontend",
                 "Desarrollo Backend",
@@ -229,9 +229,21 @@
             "url": "https://www.neworld.com.ar"
         },
         {
+            "name": "Helpy",
+            "isActive": true,
+            "description": "Una plataforma web para conectar a los usuarios con profesionales locales a través de un mapa interactivo, facilitando la búsqueda y el contacto con expertos para resolver necesidades de servicio de forma rápida y eficiente",
+            "highlights": [
+                "Desarrollo Web Frontend",
+                "Desarrollo Backend",
+                "Sveltekit"
+            ],
+            "url": "https://www.helpy.work",
+            "github": "https://github.com/carlosmgonzalez/helpy"
+        },
+        {
             "name": "ChatGPT web",
             "isActive": true,
-            "description": "Clone de chatgpt, creacion de imagenes y generacion de audio.",
+            "description": "Clon de ChatGPT con funcionalidades avanzadas, incluyendo generación de imágenes y audio mediante la integración con la API de OpenAI.",
             "highlights": ["Desarrollo Web Frontend", "React"],
             "url": "https://chatgpt-carlos.netlify.app/assistant",
             "github": "https://github.com/carlosmgonzalez/chatgpt-app-react"
@@ -239,28 +251,28 @@
         {
             "name": "ChatGPT mobile",
             "isActive": false,
-            "description": "Clone de chatgpt para mobile, generacion de imagenes y audio",
+            "description": "Versión móvil del clon de ChatGPT, desarrollada con React Native y Expo, que permite la generación de imágenes y audio en dispositivos móviles.",
             "highlights": ["Desarrollo Mobile", "React native & Expo"],
             "github": "https://github.com/carlosmgonzalez/chatgpt-app-react-native"
         },
         {
             "name": "ChatGPT backend",
             "isActive": false,
-            "description": "Api rest creade con NestJS, maneja todas las peticiones y el cual se implemento la api de OpenAI",
+            "description": "API RESTful construida con NestJS para gestionar las solicitudes del cliente y la integración con la API de OpenAI, sirviendo como el cerebro de la aplicación.",
             "highlights": ["Desarrollo Backend", "NestJs", "OpenAi"],
             "github": "https://github.com/carlosmgonzalez/chatgpt-app-nest"
         },
         {
             "name": "Tienda teslo mobile",
             "isActive": false,
-            "description": "Aplicacion mobile de una tienda",
+            "description": "Aplicación móvil de e-commerce para una tienda de ropa, desarrollada con React Native y Expo para ofrecer una experiencia de compra fluida.",
             "highlights": ["Desarrollo Mobile", "React Native & Expo"],
             "github": "https://github.com/carlosmgonzalez/teslo-app-react-native"
         },
         {
             "name": "Tienda teslo web",
             "isActive": true,
-            "description": "Web de una tienda de ropa completa",
+            "description": "Plataforma web de e-commerce completa para una tienda de ropa, construida con Next.js y Tailwind CSS para un rendimiento óptimo y un diseño moderno.",
             "highlights": ["Desarrollo Web Full-Stack", "NextJs & Tailwind"],
             "url": "https://teslo-shop-next14.vercel.app/",
             "github": "https://github.com/carlosmgonzalez/teslo-shop-next14"
@@ -268,21 +280,21 @@
         {
             "name": "Tienda teslo backend",
             "isActive": false,
-            "description": "Api REST para la tienda teslo",
+            "description": "API REST robusta desarrollada con NestJS, diseñada para gestionar productos, pedidos y autenticación de usuarios para la plataforma Teslo.",
             "highlights": ["Desarrollo Backend", "NestJs"],
             "github": "https://github.com/midudev/teslo-shop-nest"
         },
         {
             "name": "Habla con tu pdf",
             "isActive": true,
-            "description": "Web para subir tu PDF y poder prguntar datos sobre su contenido",
+            "description": "Aplicación web que permite a los usuarios interactuar con sus documentos PDF, haciendo preguntas y obteniendo respuestas basadas en el contenido del archivo.",
             "highlights": ["Desarrollo Web Full-Stack", "NextJs & Tailwind"],
             "github": "https://github.com/carlosmgonzalez/chat-with-pdf-next"
         },
         {
             "name": "Spotify clone",
             "isActive": true,
-            "description": "Clone de spotify muy basico, albunes y repdroduccion de canciones.",
+            "description": "Clon funcional de Spotify que permite explorar álbumes y reproducir canciones, construido con Astro, React y Tailwind para una interfaz rápida y moderna.",
             "highlights": [
                 "Desarrollo Web Full-Stack",
                 "Astro, React & Tailwind"
@@ -292,14 +304,14 @@
         {
             "name": "Kotflix",
             "isActive": true,
-            "description": "Aplicacion mobile para ver las peliculas que estan en cartelera, ver de que trata y el elenco que tiene.",
+            "description": "Aplicación móvil para explorar películas en cartelera, ver detalles como la sinopsis y el elenco. Desarrollada de forma nativa para Android con Kotlin.",
             "highlights": ["Desarrollo Mobile", "Kotlin & Android"],
             "github": "https://github.com/carlosmgonzalez/kotflix"
         },
         {
             "name": "Tareas",
             "isActive": true,
-            "description": "Aplicacion mobile para creacion la de tareas, creacion de usuario, almacenaciento de datos en la nube.",
+            "description": "Aplicación móvil de gestión de tareas con autenticación de usuarios y almacenamiento de datos en la nube, utilizando Firebase y React Native.",
             "highlights": [
                 "Desarrollo Mobile",
                 "React Native & Expo",
