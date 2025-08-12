@@ -9,6 +9,8 @@
         "astro": "astro"
     },
     "dependencies": {
+        "@astrojs/vercel": "^8.2.5",
+        "@vercel/analytics": "^1.5.0",
         "astro": "^5.7.9",
         "nanostores": "^1.0.1",
         "typescript": "^5.8.3"
