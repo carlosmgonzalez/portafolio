@@ -286,14 +286,14 @@
         },
         {
             "name": "Habla con tu pdf",
-            "isActive": true,
+            "isActive": false,
             "description": "Aplicación web que permite a los usuarios interactuar con sus documentos PDF, haciendo preguntas y obteniendo respuestas basadas en el contenido del archivo.",
             "highlights": ["Desarrollo Web Full-Stack", "NextJs & Tailwind"],
             "github": "https://github.com/carlosmgonzalez/chat-with-pdf-next"
         },
         {
             "name": "Spotify clone",
-            "isActive": true,
+            "isActive": false,
             "description": "Clon funcional de Spotify que permite explorar álbumes y reproducir canciones, construido con Astro, React y Tailwind para una interfaz rápida y moderna.",
             "highlights": [
                 "Desarrollo Web Full-Stack",
@@ -303,14 +303,14 @@
         },
         {
             "name": "Kotflix",
-            "isActive": true,
+            "isActive": false,
             "description": "Aplicación móvil para explorar películas en cartelera, ver detalles como la sinopsis y el elenco. Desarrollada de forma nativa para Android con Kotlin.",
             "highlights": ["Desarrollo Mobile", "Kotlin & Android"],
             "github": "https://github.com/carlosmgonzalez/kotflix"
         },
         {
             "name": "Tareas",
-            "isActive": true,
+            "isActive": false,
             "description": "Aplicación móvil de gestión de tareas con autenticación de usuarios y almacenamiento de datos en la nube, utilizando Firebase y React Native.",
             "highlights": [
                 "Desarrollo Mobile",
