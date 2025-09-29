@@ -201,6 +201,14 @@
             "reference": "Reference…"
         }
     ],
+    "youtube": [
+        {
+            "subtitle": "Chat App",
+            "href": "https://youtu.be/LcIah3_qzkA",
+            "src": "https://res.cloudinary.com/difikt7so/image/upload/v1759157706/github/t2jwmbdqg6ribbdqo71v.png",
+            "summary": "In this video, I show you the final result of developing a real-time chat with React Native (Expo) and FastAPI."
+        }
+    ],
     "projects": [
         {
             "name": "Neworld online store",

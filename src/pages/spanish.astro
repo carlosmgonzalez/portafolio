@@ -6,19 +6,21 @@ import Hero from "@/components/sections/Hero.astro";
 import Projects from "@/components/sections/Projects.astro";
 import Skills from "@/components/sections/Skills.astro";
 import Layout from "../layouts/Layout.astro";
+import Youtube from "@/components/sections/Youtube.astro";
 
-import { basics, education, work, projects } from "@cv";
+import { basics, education, work, projects, youtube } from "@cv";
 
 const { name, label } = basics;
 ---
 
 <Layout title={`Portafolio de ${name} - ${label}`}>
-    <main>
-        <Hero href="/" basics={basics} />
-        <About title="Sobre mí" summary={basics.summary} />
-        <Experience title="Experiencia laboral" work={work} />
-        <Education title="Educación" education={education} />
-        <Projects title="Proyectos" projects={projects} />
-        <Skills title="Habilidades" />
-    </main>
+  <main>
+    <Hero href="/" basics={basics} />
+    <About title="Sobre mí" summary={basics.summary} />
+    <Youtube title="Youtube" youtube={youtube} />
+    <Experience title="Experiencia laboral" work={work} />
+    <Education title="Educación" education={education} />
+    <Projects title="Proyectos" projects={projects} />
+    <Skills title="Habilidades" />
+  </main>
 </Layout>
