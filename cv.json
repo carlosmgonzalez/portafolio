@@ -1,12 +1,12 @@
 {
     "basics": {
         "name": "Carlos Mario Gonzalez Sarmiento",
-        "label": "Desarrollador Full-Stack",
+        "label": "Desarrollador de software",
         "image": "/me.webp",
         "email": "carlosmgonzalez1998@gmail.com",
         "phone": "+541140634529",
         "url": "https://carlosmgonzalez.netlify.app/",
-        "summary": "Programador Full-Stack especializado en desarrollo web, mobile y backend, con dominio de tecnologías modernas como React, React Native (con Expo), Node.js, NestJS, PostgreSQL, MongoDB, SQLite y Docker. Apasionado por crear soluciones eficientes y escalables, combinando un sólido conocimiento técnico con experiencia práctica adquirida a través de múltiples proyectos personales y colaborativos. Comprometido con la calidad del código, la mejora continua y la entrega de resultados que generen impacto real.",
+        "summary": "Me identifico como desarrollador de software porque no me limito a pensar en términos de frontend o backend ni a un stack específico. Disfruto crear proyectos desde cero y enfrentar todo lo que eso implica: la interfaz, la lógica de negocio, la arquitectura y más. En ese camino he trabajado con distintas tecnologías, lo que me ha permitido aprender a comprender y adaptarme rápidamente a diferentes lenguajes y frameworks.",
         "location": {
             "address": "",
             "postalCode": "",

@@ -1,12 +1,12 @@
 {
     "basics": {
         "name": "Carlos Mario Gonzalez Sarmiento",
-        "label": "Full-Stack Developer",
+        "label": "Software Developer",
         "image": "/me.webp",
         "email": "carlosmgonzalez1998@gmail.com",
         "phone": "+541140634529",
         "url": "https://carlosmgonzalez.netlify.app/",
-        "summary": "Full-Stack Developer specialized in web, mobile, and backend development, proficient in modern technologies such as React, React Native (with Expo), Node.js, NestJS, PostgreSQL, MongoDB, SQLite, and Docker. Passionate about building efficient and scalable solutions, combining strong technical knowledge with hands-on experience from multiple personal and collaborative projects. Committed to code quality, continuous improvement, and delivering results that make a real impact.",
+        "summary": "I identify myself as a software developer because I don’t limit my work to just frontend or backend, nor to a specific stack. I enjoy building projects from scratch and tackling everything that comes with it: the interface, business logic, architecture, and more. Along the way, I’ve worked with different technologies, which has allowed me to quickly learn and adapt to various languages and frameworks.",
         "location": {
             "address": "",
             "postalCode": "",

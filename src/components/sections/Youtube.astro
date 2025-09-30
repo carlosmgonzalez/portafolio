@@ -39,7 +39,9 @@ const { title, youtube } = Astro.props;
           </div>
         </a>
         <div>
-          <h3>{video.subtitle}</h3>
+          <a href={video.href}>
+            <h3>{video.subtitle}</h3>
+          </a>
           <p>{video.summary}</p>
         </div>
       </div>
@@ -101,6 +103,10 @@ const { title, youtube } = Astro.props;
     font-weight: 500;
     color: black;
     margin-bottom: 4px;
+  }
+
+  h3:hover {
+    text-decoration: underline;
   }
 
   img {
