@@ -1,316 +1,306 @@
 {
-    "basics": {
-        "name": "Carlos Mario Gonzalez Sarmiento",
-        "label": "Software Developer",
-        "image": "/me.webp",
-        "email": "carlosmgonzalez1998@gmail.com",
-        "phone": "+541140634529",
-        "url": "https://carlosmgonzalez.netlify.app/",
-        "summary": "I identify myself as a software developer because I don’t limit my work to just frontend or backend, nor to a specific stack. I enjoy building projects from scratch and tackling everything that comes with it: the interface, business logic, architecture, and more. Along the way, I’ve worked with different technologies, which has allowed me to quickly learn and adapt to various languages and frameworks.",
-        "location": {
-            "address": "",
-            "postalCode": "",
-            "city": "Buenos Aires",
-            "countryCode": "AR",
-            "region": "Argentina"
-        },
-        "profiles": [
-            {
-                "network": "LinkedIn",
-                "username": "carlosmgonzalez1998",
-                "url": "https://linkedin.com/in/carlosmgonzalez1998"
-            },
-            {
-                "network": "X",
-                "username": "carlosmariog98_",
-                "url": "https://x.com/carlosmariog98_"
-            },
-            {
-                "network": "GitHub",
-                "username": "carlosmgonzalez",
-                "url": "https://github.com/carlosmgonzalez"
-            }
-        ]
+  "basics": {
+    "name": "Carlos Mario Gonzalez Sarmiento",
+    "label": "Software Developer",
+    "image": "/me.webp",
+    "email": "carlosmgonzalez1998@gmail.com",
+    "phone": "+541140634529",
+    "url": "https://carlosmgonzalez.netlify.app/",
+    "summary": "I'm passionate about building applications and mastering every layer of development — from the user interface to business logic and architecture. I have experience working with different technologies and frameworks, which allows me to learn and adapt quickly to new environments.\n\nCurrently, I'm focused on mobile development with React Native, but I also have a strong background in backend development, working with NestJS, Express, and FastAPI, as well as databases like PostgreSQL and Docker environments. I don’t limit myself to a single stack — I enjoy understanding how the entire ecosystem works and choosing the best tools for each project.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Buenos Aires",
+      "countryCode": "AR",
+      "region": "Argentina"
     },
-    "education": [
-        {
-            "institution": "Web and Mobile Development - Self-taught",
-            "startDate": "August 2022",
-            "endDate": "July 2025",
-            "area": "Intensive training in web and mobile application development through: \n- Study of official technical documentation \n- Development of practical projects \n- Use of modern development tools (Cursor AI) \n- Continuous learning through specialized digital resources"
-        }
-    ],
-    "work": [
-        {
-            "name": "Neworld",
-            "startDate": "February 2025",
-            "endDate": "July 2025",
-            "position": "FullStack Web Developer",
-            "summary": "I developed a complete online store, implementing a payment gateway with MercadoPago. I used SvelteKit to build both the frontend and backend, and managed the PostgreSQL database with Prisma as the ORM. The goal was to create a robust and scalable e-commerce platform.",
-            "highlights": [
-                "Backend Development",
-                "Sveltekit",
-                "Frontend Web Development"
-            ],
-            "url": "https://www.neworld.com.ar"
-        }
-    ],
-    "volunteer": [],
-    "awards": [
-        {
-            "title": "Award",
-            "date": "2014-11-01",
-            "awarder": "Company",
-            "summary": "There is no spoon."
-        }
-    ],
-    "certificates": [
-        {
-            "name": "Certificate",
-            "date": "2021-11-07",
-            "issuer": "Company",
-            "url": "https://certificate.com"
-        }
-    ],
-    "publications": [
-        {
-            "name": "Publication",
-            "publisher": "Company",
-            "releaseDate": "2014-10-01",
-            "url": "https://publication.com",
-            "summary": "Description…"
-        }
-    ],
-    "skills": [
-        {
-            "name": "HTML",
-            "level": "Master",
-            "keywords": ["Web Development", "Frontend"]
-        },
-        {
-            "name": "CSS",
-            "level": "Master",
-            "keywords": ["Web Development", "Frontend", "Responsive Design"]
-        },
-        {
-            "name": "Tailwind",
-            "level": "Advanced",
-            "keywords": [
-                "Web Development",
-                "Frontend",
-                "CSS Framework",
-                "Responsive Design"
-            ]
-        },
-        {
-            "name": "TypeScript",
-            "level": "Advanced",
-            "keywords": [
-                "Web Development",
-                "Frontend",
-                "Backend",
-                "JavaScript Superset"
-            ]
-        },
-        {
-            "name": "Nest",
-            "level": "Master",
-            "keywords": ["Web Development", "Backend", "Server"]
-        },
-        {
-            "name": "Expo",
-            "level": "Master",
-            "keywords": ["Mobile Development", "Frontend"]
-        },
-        {
-            "name": "Kotlin",
-            "level": "Master",
-            "keywords": ["Mobile Development", "Frontend"]
-        },
-        {
-            "name": "Node",
-            "level": "Advanced",
-            "keywords": ["Web Development", "Backend", "JavaScript", "Server"]
-        },
-        {
-            "name": "MySQL",
-            "level": "Advanced",
-            "keywords": ["Databases", "SQL", "Data Storage", "Backend"]
-        },
-        {
-            "name": "Postgresql",
-            "level": "Advanced",
-            "keywords": ["Databases", "SQL", "Data Storage", "Backend"]
-        },
-        {
-            "name": "Git",
-            "level": "Advanced",
-            "keywords": ["Version Control", "Collaboration", "Source Code"]
-        },
-        {
-            "name": "GitHub",
-            "level": "Advanced",
-            "keywords": [
-                "Version Control",
-                "Collaboration",
-                "Source Code",
-                "Git"
-            ]
-        },
-        {
-            "name": "Next.js",
-            "level": "Advanced",
-            "keywords": [
-                "Web Development",
-                "Frontend",
-                "React Framework",
-                "SSR",
-                "Static Generation"
-            ]
-        },
-        {
-            "name": "React",
-            "level": "Advanced",
-            "keywords": [
-                "Web Development",
-                "Frontend",
-                "JavaScript Library",
-                "UI"
-            ]
-        }
-    ],
-    "languages": [
-        {
-            "language": "Spanish",
-            "fluency": "Native speaker"
-        },
-        {
-            "language": "English",
-            "fluency": "Advanced"
-        }
-    ],
-    "interests": [
-        {
-            "name": "Wildlife",
-            "keywords": ["Ferrets", "Unicorns"]
-        }
-    ],
-    "references": [
-        {
-            "name": "Jane Doe",
-            "reference": "Reference…"
-        }
-    ],
-    "youtube": [
-        {
-            "subtitle": "Chat App",
-            "href": "https://youtu.be/LcIah3_qzkA",
-            "src": "https://res.cloudinary.com/difikt7so/image/upload/v1759157706/github/t2jwmbdqg6ribbdqo71v.png",
-            "summary": "In this video, I show you the final result of developing a real-time chat with React Native (Expo) and FastAPI."
-        }
-    ],
-    "projects": [
-        {
-            "name": "Neworld online store",
-            "isActive": true,
-            "description": "Development of a fully functional technology store, with integration of the MercadoPago payment gateway to securely process transactions.",
-            "highlights": [
-                "Frontend Web Development",
-                "Backend Development",
-                "Sveltekit"
-            ],
-            "url": "https://www.neworld.com.ar"
-        },
-        {
-            "name": "Helpy",
-            "isActive": true,
-            "description": "A web platform to connect users with local professionals via an interactive map, making it easy to find and contact experts to solve service needs quickly and efficiently.",
-            "highlights": [
-                "Full-Stack Web Development",
-                "Interactive Maps",
-                "Geolocation"
-            ],
-            "url": "https://www.helpy.work",
-            "github": "https://github.com/carlosmgonzalez/helpy"
-        },
-        {
-            "name": "ChatGPT web",
-            "isActive": true,
-            "description": "ChatGPT clone with advanced features, including image and audio generation by integrating with the OpenAI API.",
-            "highlights": ["Frontend Web Development", "React"],
-            "url": "https://chatgpt-carlos.netlify.app/assistant",
-            "github": "https://github.com/carlosmgonzalez/chatgpt-app-react"
-        },
-        {
-            "name": "ChatGPT mobile",
-            "isActive": false,
-            "description": "Mobile version of the ChatGPT clone, developed with React Native and Expo, enabling image and audio generation on mobile devices.",
-            "highlights": ["Mobile Development", "React native & Expo"],
-            "github": "https://github.com/carlosmgonzalez/chatgpt-app-react-native"
-        },
-        {
-            "name": "ChatGPT backend",
-            "isActive": false,
-            "description": "RESTful API built with NestJS to manage client requests and integration with the OpenAI API, serving as the application's brain.",
-            "highlights": ["Backend Development", "NestJs", "OpenAi"],
-            "github": "https://github.com/carlosmgonzalez/chatgpt-app-nest"
-        },
-        {
-            "name": "Teslo store mobile",
-            "isActive": false,
-            "description": "E-commerce mobile application for a clothing store, developed with React Native and Expo to provide a seamless shopping experience.",
-            "highlights": ["Mobile Development", "React Native & Expo"],
-            "github": "https://github.com/carlosmgonzalez/teslo-app-react-native"
-        },
-        {
-            "name": "Teslo store web",
-            "isActive": true,
-            "description": "A complete e-commerce web platform for a clothing store, built with Next.js and Tailwind CSS for optimal performance and a modern design.",
-            "highlights": ["Full-Stack Web Development", "NextJs & Tailwind"],
-            "url": "https://teslo-shop-next14.vercel.app/",
-            "github": "https://github.com/carlosmgonzalez/teslo-shop-next14"
-        },
-        {
-            "name": "Teslo store backend",
-            "isActive": false,
-            "description": "Robust REST API developed with NestJS, designed to manage products, orders, and user authentication for the Teslo platform.",
-            "highlights": ["Backend Development", "NestJs"],
-            "github": "https://github.com/midudev/teslo-shop-nest"
-        },
-        {
-            "name": "Chat to your pdf",
-            "isActive": false,
-            "description": "Web application that allows users to interact with their PDF documents, asking questions and getting answers based on the file's content.",
-            "highlights": ["Full-Stack Web Development", "NextJs & Tailwind"],
-            "github": "https://github.com/carlosmgonzalez/chat-with-pdf-next"
-        },
-        {
-            "name": "Spotify clone",
-            "isActive": false,
-            "description": "Functional Spotify clone that allows browsing albums and playing songs, built with Astro, React, and Tailwind for a fast and modern interface.",
-            "highlights": [
-                "Full-Stack Web Development",
-                "Astro, React & Tailwind"
-            ],
-            "github": "https://github.com/carlosmgonzalez/spotify-clone"
-        },
-        {
-            "name": "Kotflix",
-            "isActive": false,
-            "description": "Mobile application to browse movies currently in theaters, view details like synopsis and cast. Natively developed for Android with Kotlin.",
-            "highlights": ["Mobile Development", "Kotlin & Android"],
-            "github": "https://github.com/carlosmgonzalez/kotflix"
-        },
-        {
-            "name": "Todos",
-            "isActive": false,
-            "description": "Task management mobile application with user authentication and cloud data storage, using Firebase and React Native.",
-            "highlights": [
-                "Mobile Development",
-                "React Native & Expo",
-                "Firebase"
-            ],
-            "github": "https://github.com/carlosmgonzalez/my-todo-app-rn"
-        }
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "carlosmgonzalez1998",
+        "url": "https://linkedin.com/in/carlosmgonzalez1998"
+      },
+      {
+        "network": "X",
+        "username": "carlosmariog98_",
+        "url": "https://x.com/carlosmariog98_"
+      },
+      {
+        "network": "GitHub",
+        "username": "carlosmgonzalez",
+        "url": "https://github.com/carlosmgonzalez"
+      }
     ]
+  },
+  "education": [
+    {
+      "institution": "University of Buenos Aires (UBA)",
+      "startDate": "March 2022",
+      "area": "Computer Engineering - Currently in third year",
+      "description": "University education focused on the theoretical and practical foundations of software engineering, data structures, algorithms, databases, and distributed systems."
+    },
+    {
+      "institution": "Complementary Training in Web and Mobile Development",
+      "startDate": "August 2022",
+      "endDate": "July 2025",
+      "area": "Software developer",
+      "description": "Practical preparation for the professional world through: \n- Learning modern technologies such as React, React Native, Node.js, NestJS, FastAPI, and Docker \n- Continuous study of official technical documentation and specialized digital resources \n- Development of personal and collaborative projects focused on best practices and software architecture"
+    }
+  ],
+  "work": [
+    {
+      "name": "Neworld",
+      "startDate": "February 2025",
+      "endDate": "July 2025",
+      "position": "FullStack Web Developer",
+      "summary": "I developed a complete online store, implementing a payment gateway with MercadoPago. I used SvelteKit to build both the frontend and backend, and managed the PostgreSQL database with Prisma as the ORM. The goal was to create a robust and scalable e-commerce platform.",
+      "highlights": [
+        "Backend Development",
+        "Sveltekit",
+        "Frontend Web Development"
+      ],
+      "url": "https://www.neworld.com.ar"
+    }
+  ],
+  "volunteer": [],
+  "awards": [
+    {
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Certificate",
+      "date": "2021-11-07",
+      "issuer": "Company",
+      "url": "https://certificate.com"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "Master",
+      "keywords": ["Web Development", "Frontend"]
+    },
+    {
+      "name": "CSS",
+      "level": "Master",
+      "keywords": ["Web Development", "Frontend", "Responsive Design"]
+    },
+    {
+      "name": "Tailwind",
+      "level": "Advanced",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "CSS Framework",
+        "Responsive Design"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Advanced",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "Backend",
+        "JavaScript Superset"
+      ]
+    },
+    {
+      "name": "Nest",
+      "level": "Master",
+      "keywords": ["Web Development", "Backend", "Server"]
+    },
+    {
+      "name": "Expo",
+      "level": "Master",
+      "keywords": ["Mobile Development", "Frontend"]
+    },
+    {
+      "name": "Kotlin",
+      "level": "Master",
+      "keywords": ["Mobile Development", "Frontend"]
+    },
+    {
+      "name": "Node",
+      "level": "Advanced",
+      "keywords": ["Web Development", "Backend", "JavaScript", "Server"]
+    },
+    {
+      "name": "MySQL",
+      "level": "Advanced",
+      "keywords": ["Databases", "SQL", "Data Storage", "Backend"]
+    },
+    {
+      "name": "Postgresql",
+      "level": "Advanced",
+      "keywords": ["Databases", "SQL", "Data Storage", "Backend"]
+    },
+    {
+      "name": "Git",
+      "level": "Advanced",
+      "keywords": ["Version Control", "Collaboration", "Source Code"]
+    },
+    {
+      "name": "GitHub",
+      "level": "Advanced",
+      "keywords": ["Version Control", "Collaboration", "Source Code", "Git"]
+    },
+    {
+      "name": "Next.js",
+      "level": "Advanced",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "React Framework",
+        "SSR",
+        "Static Generation"
+      ]
+    },
+    {
+      "name": "React",
+      "level": "Advanced",
+      "keywords": ["Web Development", "Frontend", "JavaScript Library", "UI"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Advanced"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": ["Ferrets", "Unicorns"]
+    }
+  ],
+  "references": [
+    {
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }
+  ],
+  "youtube": [
+    {
+      "subtitle": "Chat App",
+      "href": "https://youtu.be/LcIah3_qzkA",
+      "src": "https://res.cloudinary.com/difikt7so/image/upload/v1759157706/github/t2jwmbdqg6ribbdqo71v.png",
+      "summary": "In this video, I show you the final result of developing a real-time chat with React Native (Expo) and FastAPI."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Neworld online store",
+      "isActive": true,
+      "description": "Development of a fully functional technology store, with integration of the MercadoPago payment gateway to securely process transactions.",
+      "highlights": [
+        "Frontend Web Development",
+        "Backend Development",
+        "Sveltekit"
+      ],
+      "url": "https://www.neworld.com.ar"
+    },
+    {
+      "name": "Helpy",
+      "isActive": true,
+      "description": "A web platform to connect users with local professionals via an interactive map, making it easy to find and contact experts to solve service needs quickly and efficiently.",
+      "highlights": [
+        "Full-Stack Web Development",
+        "Interactive Maps",
+        "Geolocation"
+      ],
+      "url": "https://www.helpy.work",
+      "github": "https://github.com/carlosmgonzalez/helpy"
+    },
+    {
+      "name": "ChatGPT web",
+      "isActive": true,
+      "description": "ChatGPT clone with advanced features, including image and audio generation by integrating with the OpenAI API.",
+      "highlights": ["Frontend Web Development", "React"],
+      "url": "https://chatgpt-carlos.netlify.app/assistant",
+      "github": "https://github.com/carlosmgonzalez/chatgpt-app-react"
+    },
+    {
+      "name": "ChatGPT mobile",
+      "isActive": false,
+      "description": "Mobile version of the ChatGPT clone, developed with React Native and Expo, enabling image and audio generation on mobile devices.",
+      "highlights": ["Mobile Development", "React native & Expo"],
+      "github": "https://github.com/carlosmgonzalez/chatgpt-app-react-native"
+    },
+    {
+      "name": "ChatGPT backend",
+      "isActive": false,
+      "description": "RESTful API built with NestJS to manage client requests and integration with the OpenAI API, serving as the application's brain.",
+      "highlights": ["Backend Development", "NestJs", "OpenAi"],
+      "github": "https://github.com/carlosmgonzalez/chatgpt-app-nest"
+    },
+    {
+      "name": "Teslo store mobile",
+      "isActive": false,
+      "description": "E-commerce mobile application for a clothing store, developed with React Native and Expo to provide a seamless shopping experience.",
+      "highlights": ["Mobile Development", "React Native & Expo"],
+      "github": "https://github.com/carlosmgonzalez/teslo-app-react-native"
+    },
+    {
+      "name": "Teslo store web",
+      "isActive": true,
+      "description": "A complete e-commerce web platform for a clothing store, built with Next.js and Tailwind CSS for optimal performance and a modern design.",
+      "highlights": ["Full-Stack Web Development", "NextJs & Tailwind"],
+      "url": "https://teslo-shop-next14.vercel.app/",
+      "github": "https://github.com/carlosmgonzalez/teslo-shop-next14"
+    },
+    {
+      "name": "Teslo store backend",
+      "isActive": false,
+      "description": "Robust REST API developed with NestJS, designed to manage products, orders, and user authentication for the Teslo platform.",
+      "highlights": ["Backend Development", "NestJs"],
+      "github": "https://github.com/midudev/teslo-shop-nest"
+    },
+    {
+      "name": "Chat to your pdf",
+      "isActive": false,
+      "description": "Web application that allows users to interact with their PDF documents, asking questions and getting answers based on the file's content.",
+      "highlights": ["Full-Stack Web Development", "NextJs & Tailwind"],
+      "github": "https://github.com/carlosmgonzalez/chat-with-pdf-next"
+    },
+    {
+      "name": "Spotify clone",
+      "isActive": false,
+      "description": "Functional Spotify clone that allows browsing albums and playing songs, built with Astro, React, and Tailwind for a fast and modern interface.",
+      "highlights": ["Full-Stack Web Development", "Astro, React & Tailwind"],
+      "github": "https://github.com/carlosmgonzalez/spotify-clone"
+    },
+    {
+      "name": "Kotflix",
+      "isActive": false,
+      "description": "Mobile application to browse movies currently in theaters, view details like synopsis and cast. Natively developed for Android with Kotlin.",
+      "highlights": ["Mobile Development", "Kotlin & Android"],
+      "github": "https://github.com/carlosmgonzalez/kotflix"
+    },
+    {
+      "name": "Todos",
+      "isActive": false,
+      "description": "Task management mobile application with user authentication and cloud data storage, using Firebase and React Native.",
+      "highlights": ["Mobile Development", "React Native & Expo", "Firebase"],
+      "github": "https://github.com/carlosmgonzalez/my-todo-app-rn"
+    }
+  ]
 }
