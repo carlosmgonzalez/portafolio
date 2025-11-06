@@ -35,8 +35,8 @@
   "education": [
     {
       "institution": "University of Buenos Aires (UBA)",
-      "startDate": "March 2022",
-      "area": "Computer Engineering - Currently in third year",
+      "startDate": "March 2024",
+      "area": "Computer Engineering - Currently in second year",
       "description": "University education focused on the theoretical and practical foundations of software engineering, data structures, algorithms, databases, and distributed systems."
     },
     {
@@ -219,6 +219,27 @@
       "url": "https://www.neworld.com.ar"
     },
     {
+      "name": "CalAI",
+      "isActive": true,
+      "description": "Using artificial intelligence, it helps us obtain the calories and nutritional properties of the food we are about to eat just by taking a photo. We can save that information and track our daily calorie intake to observe how we eat over time.",
+      "highlights": ["Mobile Development", "React Native & Expo"],
+      "github": "https://github.com/carlosmgonzalez/calai"
+    },
+    {
+      "name": "ChatGPT web",
+      "isActive": true,
+      "description": "ChatGPT clone with advanced features, including image and audio generation by integrating with the OpenAI API.",
+      "highlights": ["Frontend Web Development", "React"],
+      "github": "https://github.com/carlosmgonzalez/chatgpt-app-react"
+    },
+    {
+      "name": "ChatGPT mobile",
+      "isActive": false,
+      "description": "Mobile version of the ChatGPT clone, developed with React Native and Expo, enabling image and audio generation on mobile devices.",
+      "highlights": ["Mobile Development", "React native & Expo"],
+      "github": "https://github.com/carlosmgonzalez/chatgpt-app-react-native"
+    },
+    {
       "name": "Helpy",
       "isActive": true,
       "description": "A web platform to connect users with local professionals via an interactive map, making it easy to find and contact experts to solve service needs quickly and efficiently.",
@@ -229,21 +250,6 @@
       ],
       "url": "https://www.helpy.work",
       "github": "https://github.com/carlosmgonzalez/helpy"
-    },
-    {
-      "name": "ChatGPT web",
-      "isActive": true,
-      "description": "ChatGPT clone with advanced features, including image and audio generation by integrating with the OpenAI API.",
-      "highlights": ["Frontend Web Development", "React"],
-      "url": "https://chatgpt-carlos.netlify.app/assistant",
-      "github": "https://github.com/carlosmgonzalez/chatgpt-app-react"
-    },
-    {
-      "name": "ChatGPT mobile",
-      "isActive": false,
-      "description": "Mobile version of the ChatGPT clone, developed with React Native and Expo, enabling image and audio generation on mobile devices.",
-      "highlights": ["Mobile Development", "React native & Expo"],
-      "github": "https://github.com/carlosmgonzalez/chatgpt-app-react-native"
     },
     {
       "name": "ChatGPT backend",
