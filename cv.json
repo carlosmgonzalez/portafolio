@@ -6,7 +6,7 @@
     "email": "carlosmgonzalez1998@gmail.com",
     "phone": "+541140634529",
     "url": "https://carlosmgonzalez.netlify.app/",
-    "summary": "Me apasiona crear aplicaciones desde cero y dominar cada capa del desarrollo, desde la interfaz hasta la lógica de negocio y la arquitectura. Tengo experiencia trabajando con distintas tecnologías y frameworks, lo que me permite aprender y adaptarme rápidamente a nuevos entornos. \n\nActualmente estoy enfocado en el desarrollo mobile con React Native, pero también tengo una sólida base en backend, trabajando con NestJS, Express y FastAPI, además de bases de datos como PostgreSQL y entornos Docker. No me limito a un solo stack: disfruto entender cómo funciona todo el ecosistema y encontrar la mejor herramienta para cada proyecto.",
+    "summary": "Me gusta desarrollar productos completos, entendiendo cada capa del sistema: desde la experiencia del usuario hasta la lógica del backend y la arquitectura que lo sostiene. Aprendo rápido y me adapto sin problema a distintos entornos y tecnologías. \n\nActualmente me especializo en desarrollo mobile con React Native (Expo), pero también tengo experiencia creando aplicaciones web con Next.js y SvelteKit. En el lado del backend, trabajo con NestJS, Express y FastAPI, utilizando principalmente PostgreSQL y entornos Docker para despliegue y desarrollo. \n\nNo me limito a un stack específico: disfruto comprender el ecosistema completo y elegir la herramienta adecuada para cada proyecto.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -235,14 +235,14 @@
     },
     {
       "name": "CalAI",
-      "isActive": true,
+      "isActive": false,
       "description": "Mediante inteligencia artificial, nos ayudará a obtener las calorías y las propiedades nutricionales de la comida que vamos a ingerir con solo tomarle una foto. Podremos guardar esa información y hacer un seguimiento diario de nuestra ingesta calórica para observar cómo comemos a lo largo del tiempo",
       "highlights": ["Desarrollo Mobile", "React native & Expo"],
       "github": "https://github.com/carlosmgonzalez/calai"
     },
     {
       "name": "ChatGPT web",
-      "isActive": true,
+      "isActive": false,
       "description": "Clon de ChatGPT con funcionalidades avanzadas, incluyendo generación de imágenes y audio mediante la integración con la API de OpenAI.",
       "highlights": ["Desarrollo Web Frontend", "React"],
       "github": "https://github.com/carlosmgonzalez/chatgpt-app-react"
