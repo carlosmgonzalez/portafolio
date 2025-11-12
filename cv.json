@@ -219,6 +219,12 @@
       "href": "https://youtu.be/LcIah3_qzkA",
       "src": "https://res.cloudinary.com/difikt7so/image/upload/v1759157706/github/t2jwmbdqg6ribbdqo71v.png",
       "summary": "En este video te muestro el resultado final del desarrollo de un chat en tiempo real con React Native (Expo) y FastAPI"
+    },
+    {
+      "subtitle": "Neworld Tienda Online",
+      "href": "https://youtu.be/GOvAkVx29Q0",
+      "src": "https://res.cloudinary.com/difikt7so/image/upload/v1762969124/github/jne2ktuzovirnluma9aa.jpg",
+      "summary": "Desarrollé una tienda online completa, implementando una pasarela de pagos con MercadoPago. Utilicé SvelteKit para construir tanto el frontend como el backend, y gestioné la base de datos PostgreSQL con Prisma como ORM."
     }
   ],
   "projects": [
@@ -232,6 +238,17 @@
         "Sveltekit"
       ],
       "url": "https://www.neworld.com.ar"
+    },
+    {
+      "name": "Choices AI",
+      "isActive": true,
+      "description": "Transforma documentos PDF en cuestionarios de opción múltiple utilizando inteligencia artificial. Su objetivo es ayudar a estudiantes y profesionales a practicar para exámenes de forma más interactiva.",
+      "highlights": [
+        "Desarrollo Web Frontend",
+        "Desarrollo Backend",
+        "NextJs & Tailwind"
+      ],
+      "url": "https://choices-ai.vercel.app/"
     },
     {
       "name": "CalAI",

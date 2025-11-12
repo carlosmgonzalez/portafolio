@@ -42,7 +42,6 @@
     {
       "institution": "Complementary Training in Web and Mobile Development",
       "startDate": "August 2022",
-      "endDate": "July 2025",
       "area": "Software developer",
       "description": "Practical preparation for the professional world through: \n- Learning modern technologies such as React, React Native, Node.js, NestJS, FastAPI, and Docker \n- Continuous study of official technical documentation and specialized digital resources \n- Development of personal and collaborative projects focused on best practices and software architecture"
     }
@@ -204,6 +203,12 @@
       "href": "https://youtu.be/LcIah3_qzkA",
       "src": "https://res.cloudinary.com/difikt7so/image/upload/v1759157706/github/t2jwmbdqg6ribbdqo71v.png",
       "summary": "In this video, I show you the final result of developing a real-time chat with React Native (Expo) and FastAPI."
+    },
+    {
+      "subtitle": "Neworld Online Shop",
+      "href": "https://youtu.be/GOvAkVx29Q0",
+      "src": "https://res.cloudinary.com/difikt7so/image/upload/v1762969124/github/jne2ktuzovirnluma9aa.jpg",
+      "summary": "I developed a complete online store, implementing a payment gateway with MercadoPago. I used SvelteKit to build both the frontend and backend, and managed the PostgreSQL database using Prisma as the ORM."
     }
   ],
   "projects": [
@@ -217,6 +222,17 @@
         "Sveltekit"
       ],
       "url": "https://www.neworld.com.ar"
+    },
+    {
+      "name": "Choices AI",
+      "isActive": true,
+      "description": "Transform PDF documents into multiple-choice quizzes using artificial intelligence. Its goal is to help students and professionals practice for exams in a more interactive way.",
+      "highlights": [
+        "Frontend Web Development",
+        "Backend Development",
+        "NextJs & Tailwind"
+      ],
+      "url": "https://choices-ai.vercel.app/"
     },
     {
       "name": "CalAI",
