@@ -14,46 +14,47 @@ const { title, youtube } = Astro.props;
 
 <section>
   <h2 class="title_about">{title}</h2>
-  {
-    youtube.map((video) => (
-      <div class="container">
-        <a href={video.href}>
-          <img src={video.src} alt="portada youtube video" />
-          <div class="select-container">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="lucide lucide-external-link-icon lucide-external-link"
-            >
-              <path d="M15 3h6v6" />
-              <path d="M10 14 21 3" />
-              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
-            </svg>
-          </div>
-        </a>
-        <div>
+  <div class="parent-container">
+    {
+      youtube.map((video) => (
+        <div class="container">
           <a href={video.href}>
-            <h3>{video.subtitle}</h3>
+            <img src={video.src} alt="portada youtube video" />
+            <div class="select-container">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-external-link-icon lucide-external-link"
+              >
+                <path d="M15 3h6v6" />
+                <path d="M10 14 21 3" />
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+              </svg>
+            </div>
           </a>
-          <p>{video.summary}</p>
+          <div>
+            <a href={video.href}>
+              <h3>{video.subtitle}</h3>
+            </a>
+            <p>{video.summary}</p>
+          </div>
         </div>
-      </div>
-    ))
-  }
+      ))
+    }
+  </div>
 </section>
 
 <style>
   section {
     max-width: 700px;
     margin: 0 auto 48px;
-    gap: 20px;
   }
 
   svg {
@@ -64,7 +65,13 @@ const { title, youtube } = Astro.props;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    column-gap: 20px;
+    column-gap: 25px;
+  }
+
+  .parent-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
   }
 
   .select-container {

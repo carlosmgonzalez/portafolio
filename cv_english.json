@@ -209,6 +209,12 @@
       "href": "https://youtu.be/GOvAkVx29Q0",
       "src": "https://res.cloudinary.com/difikt7so/image/upload/v1762969124/github/jne2ktuzovirnluma9aa.jpg",
       "summary": "I developed a complete online store, implementing a payment gateway with MercadoPago. I used SvelteKit to build both the frontend and backend, and managed the PostgreSQL database using Prisma as the ORM."
+    },
+    {
+      "subtitle": "Turn your PDFs into exams with AI",
+      "href": "https://youtu.be/Z7u6fW4-18k",
+      "src": "https://res.cloudinary.com/difikt7so/image/upload/v1762976895/github/y0bmwyk4hvgjuwnddm80.jpg",
+      "summary": "I developed a web application that transforms PDF documents into multiple-choice quizzes using artificial intelligence. Its goal is to help students and professionals practice for exams in a more interactive way."
     }
   ],
   "projects": [
