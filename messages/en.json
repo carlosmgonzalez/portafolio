@@ -6,7 +6,7 @@
     "email": "carlosmgonzalez1998@gmail.com",
     "phone": "+541140634529",
     "url": "https://carlosmgonzalez.netlify.app/",
-    "summary": "I enjoy building products end-to-end, understanding every layer of the system—from the user experience to the backend logic and the architecture behind it. I learn quickly and adapt easily to different environments and technologies. \n\nI’m currently focused on mobile development with React Native (Expo), but I also have experience building web applications using Next.js and SvelteKit. On the backend side, I work with NestJS, Express, and FastAPI, mainly using PostgreSQL and Docker for development and deployment environments. \n\nI don’t limit myself to a single stack: I like understanding the entire ecosystem and choosing the right tool for each project.",
+    "summary": "I am a software developer focused on building end-to-end web applications, with a solid understanding of every layer of the system—from user experience to backend logic and the architecture that supports it. I work efficiently, optimizing time without compromising quality, and I adapt quickly to new environments and technologies.\n\nI currently specialize in web development using Next.js on the frontend and NestJS on the backend, building robust, scalable, and well-structured applications. I also have experience working with SvelteKit and developing mobile applications using React Native (Expo) when the project requires it.\n\nI have strong technical foundations and continuously improve my skills, adopting new tools and approaches to develop faster and more effectively. I use artificial intelligence as a strategic support to accelerate workflows, validate solutions, and improve productivity, while always maintaining high standards of code quality, readability, and maintainability.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -59,6 +59,27 @@
         "Frontend Web Development"
       ],
       "url": "https://www.neworld.com.ar"
+    },
+    {
+      "name": "Nacer Digital",
+      "startDate": "August 2025",
+      "endDate": "February 2026",
+      "position": "FullStack Web Developer",
+      "summary": "Nacer Digital is a company focused on creating MVPs and digital solutions tailored to startups and companies, supporting them in the design, development, and launch of scalable and functional technological products from early stages. \nWithin the company, I work as a Fullstack Web Developer, actively participating in the end-to-end development of projects. I am responsible for taking complete products and bringing them from idea to production.",
+      "responsibilities": [
+        "Design and creation of the infrastructure architecture, using AWS for deployment and scalability of the applications.",
+        "Definition and development of the database architecture, ensuring performance, security and maintainability.",
+        "Development of the complete backend using NestJS, implementing robust and scalable APIs.",
+        "Development of the frontend with React (Next.js), creating modern, efficient and user-oriented interfaces.",
+        "Direct communication with clients to understand needs, propose technical solutions and transform business requirements into functional products.",
+        "This role allows me to combine technical and communication skills, contributing value both in the product construction and in the key decisions for each project."
+      ],
+      "highlights": [
+        "Backend Development",
+        "Next.js",
+        "Frontend Web Development"
+      ],
+      "url": "#"
     }
   ],
   "volunteer": [],

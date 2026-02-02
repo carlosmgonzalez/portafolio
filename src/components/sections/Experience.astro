@@ -11,6 +11,7 @@ interface Props {
     summary: string;
     highlights: string[];
     url: string;
+    responsibilities?: string[];
   }[];
 }
 
@@ -21,7 +22,7 @@ const { title, work } = Astro.props;
   <ul>
     {
       work.map(
-        ({ name, startDate, endDate, position, summary, highlights, url }) => {
+        ({ name, startDate, endDate, position, summary, highlights, url, responsibilities }) => {
           return (
             <li>
               <article>
@@ -44,6 +45,14 @@ const { title, work } = Astro.props;
 
                 <footer>
                   <p>{summary}</p>
+
+                  {responsibilities && (
+                    <>
+                    <br />
+                    <h4>Responsibilities:</h4>
+                      {responsibilities.map((responsibility) => <p>- {responsibility}</p>)}
+                    </>
+                  )}
                 </footer>
               </article>
             </li>
